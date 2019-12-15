@@ -1,0 +1,765 @@
+  Сpавнение мнемоник Z80 и 8080A
+
+ Код    8080A           Z80
+
+  00    NOP            NOP
+  01    LXI  B,dddd    LD   BC,dddd
+  02    STAX B         LD   (BC),A
+  03    INX  B         INC  BC
+  04    INR  B         INC  B
+  05    DCR  B         DEC  B
+  06    MVI  B,dd      LD   B,dd
+  07    RLC            RLCA
+  08    ---            EX   AF,AF'
+  09    DAD  B         ADD  HL,BC
+  0A    LDAX B         LD   A,(BC)
+  0B    DCX  B         DEC  BC
+  0C    INR  C         INC  C
+  0D    DCR  C         DEC  C
+  0E    MVI  C,dd      LD   C,dd
+  0F    RRC            RRCA
+
+  10    ----           DJNZ disp
+  11    LXI  D,dddd    LD   DE,dddd
+  12    STAX D         LD   (DE),A
+  13    INX  D         INC  DE
+  14    INR  D         INC  D
+  15    DCR  D         DEC  D
+  16    MVI  D,dd      LD   D,dd
+  17    RAL            RLA
+  18    ----           JR   disp
+  19    DAD  D         ADD  HL,DE
+  1A    LDAX D         LD   A,(DE)
+  1B    DCX  D         DEC  DE
+  1C    INR  E         INC  E
+  1D    DCR  E         DEC  E
+  1E    MVI  E,dd      LD   E,dd
+  1F    RAR            RRA
+
+  20    ----           JR   NZ,disp
+  21    LXI  H,dddd    LD   HL,dddd
+  22    SHLD adr       LD   (adr),HL
+  23    INX  H         INC  HL
+  24    INR  H         INC  H
+  25    DCR  H         DEC  H
+  26    MVI  H,dd      LD   H,dd
+  27    DAA            DAA
+  28    ----           JR   Z,disp
+  29    DAD  H         ADD  HL,HL
+  2A    LHLD adr       LD   HL,(adr)
+  2B    DCX  H         DEC  HL
+  2C    INR  L         INC  L
+  2D    DCR  L         DEC  L
+  2E    MVI  L,dd      LD   L,dd
+  2F    CMA            CPL
+
+  30    ----           JR   NC,disp
+  31    LXI  SP,dddd   LD   SP,dddd
+  32    STA  adr       LD   (adr),A
+  33    INX  SP        INC  SP
+  34    INR  M         INC  (HL)
+  35    DCR  M         DEC  (HL)
+  36    MVI  M,dd      LD   (HL),dd
+  37    STC            SCF
+  38    ----           JR   C,disp
+  39    DAD  SP        ADD  HL,SP
+  3A    LDA  adr       LD   A,(adr)
+  3B    DCX  SP        DEC  SP
+  3C    INR  A         INC  A
+  3D    DCR  A         DEC  A
+  3E    MVI  A,dd      LD   A,dd
+  3F    CMC            CCF
+
+  40    MOV  B,B       LD   B,B
+  41    MOV  B,C       LD   B,C
+  42    MOV  B,D       LD   B,D
+  43    MOV  B,E       LD   B,E
+  44    MOV  B,H       LD   B,H
+  45    MOV  B,L       LD   B,L
+  46    MOV  B,M       LD   B,(HL)
+  47    MOV  B,A       LD   B,A
+  48    MOV  C,B       LD   C,B
+  49    MOV  C,C       LD   C,C
+  4A    MOV  C,D       LD   C,D
+  4B    MOV  C,E       LD   C,E
+  4C    MOV  C,H       LD   C,H
+  4D    MOV  C,L       LD   C,L
+  4E    MOV  C,M       LD   C,(HL)
+  4F    MOV  C,A       LD   C,A
+
+  50    MOV  D,B       LD   D,B
+  51    MOV  D,C       LD   D,C
+  52    MOV  D,D       LD   D,D
+  53    MOV  D,E       LD   D,E
+  54    MOV  D,H       LD   D,H
+  55    MOV  D,L       LD   D,L
+  56    MOV  D,M       LD   D,(HL)
+  57    MOV  D,A       LD   D,A
+  58    MOV  E,B       LD   E,B
+  59    MOV  E,C       LD   E,C
+  5A    MOV  E,D       LD   E,D
+  5B    MOV  E,E       LD   E,E
+  5C    MOV  E,H       LD   E,H
+  5D    MOV  E,L       LD   E,L
+  5E    MOV  E,M       LD   E,(HL)
+  5F    MOV  E,A       LD   E,A
+
+  60    MOV  H,B       LD   H,B
+  61    MOV  H,C       LD   H,C
+  62    MOV  H,D       LD   H,D
+  63    MOV  H,E       LD   H,E
+  64    MOV  H,H       LD   H,H
+  65    MOV  H,L       LD   H,L
+  66    MOV  H,M       LD   H,(HL)
+  67    MOV  H,A       LD   H,A
+  68    MOV  L,B       LD   L,B
+  69    MOV  L,C       LD   L,C
+  6A    MOV  L,D       LD   L,D
+  6B    MOV  L,E       LD   L,E
+  6C    MOV  L,H       LD   L,H
+  6D    MOV  L,L       LD   L,L
+  6E    MOV  L,M       LD   L,(HL)
+  6F    MOV  L,A       LD   L,A
+
+  70    MOV  M,B       LD   (HL),B
+  71    MOV  M,C       LD   (HL),C
+  72    MOV  M,D       LD   (HL),D
+  73    MOV  M,E       LD   (HL),E
+  74    MOV  M,H       LD   (HL),H
+  75    MOV  M,L       LD   (HL),L
+  76    HLT            HALT
+  77    MOV  M,A       LD   (HL),A
+  78    MOV  A,B       LD   A,B
+  79    MOV  A,C       LD   A,C
+  7A    MOV  A,D       LD   A,D
+  7B    MOV  A,E       LD   A,E
+  7C    MOV  A,H       LD   A,H
+  7D    MOV  A,L       LD   A,L
+  7E    MOV  A,M       LD   A,M
+  7F    MOV  A,A       LD   A,A
+
+  80    ADD  B         ADD  A,B
+  81    ADD  C         ADD  A,C
+  82    ADD  D         ADD  A,D
+  83    ADD  E         ADD  A,E
+  84    ADD  H         ADD  A,H
+  85    ADD  L         ADD  A,L
+  86    ADD  M         ADD  A,(HL)
+  87    ADD  A         ADD  A,A
+  88    ADC  B         ADC  A,B
+  89    ADC  C         ADC  A,C
+  8A    ADC  D         ADC  A,D
+  8B    ADC  E         ADC  A,E
+  8C    ADC  H         ADC  A,H
+  8D    ADC  L         ADC  A,L
+  8E    ADC  M         ADC  A,(HL)
+  8F    ADC  A         ADC  A,A
+
+  90    SUB  B         SUB  B
+  91    SUB  C         SUB  C
+  92    SUB  D         SUB  D
+  93    SUB  E         SUB  E
+  94    SUB  H         SUB  H
+  95    SUB  L         SUB  L
+  96    SUB  M         SUB  (HL)
+  97    SUB  A         SUB  A
+  98    SBB  B         SBC  A,B
+  99    SBB  C         SBC  A,C
+  9A    SBB  D         SBC  A,D
+  9B    SBB  E         SBC  A,E
+  9C    SBB  H         SBC  A,H
+  9D    SBB  L         SBC  A,L
+  9E    SBB  M         SBC  A,(HL)
+  9F    SBB  A         SBC  A,A
+
+  A0    ANA  B         AND  B
+  A1    ANA  C         AND  C
+  A2    ANA  D         AND  D
+  A3    ANA  E         AND  E
+  A4    ANA  H         AND  H
+  A5    ANA  L         AND  L
+  A6    ANA  M         AND  (HL)
+  A7    ANA  A         AND  A
+  A8    XRA  B         XOR  B
+  A9    XRA  C         XOR  C
+  AA    XRA  D         XOR  D
+  AB    XRA  E         XOR  E
+  AC    XRA  H         XOR  H
+  AD    XRA  L         XOR  L
+  AE    XRA  M         XOR  (HL)
+  AF    XRA  A         XOR  A
+
+  B0    ORA  B         OR   B
+  B1    ORA  C         OR   C                       
+  B2    ORA  D         OR   D
+  B3    ORA  E         OR   E
+  B4    ORA  H         OR   H
+  B5    ORA  L         OR   L
+  B6    ORA  M         OR   (HL)
+  B7    ORA  A         OR   A
+  B8    CMP  B         CP   B
+  B9    CMP  C         CP   C
+  BA    CMP  D         CP   D
+  BB    CMP  E         CP   E
+  BC    CMP  H         CP   H
+  BD    CMP  L         CP   L
+  BE    CMP  M         CP   (HL)
+  BF    CMP  A         CP   A
+
+  C0    RNZ            RET  NZ
+  C1    POP  B         POP  BC
+  C2    JNZ  adr       JP   NZ,adr
+  C3    JMP  adr       JP   adr
+  C4    CNZ  adr       CALL NZ,adr
+  C5    PUSH B         PUSH BC
+  C6    ADI  dd        ADD  A,dd
+  C7    RST  0         RST  0
+  C8    RZ             RET  Z
+  C9    RET            RET
+  CA    JZ   adr       JP   Z,adr
+  CB    ----           see below
+  CC    CZ   adr       CALL Z,adr
+  CD    CALL adr       CALL adr
+  CE    ACI  dd        ADC  A,dd
+  CF    RST  1         RST  8
+
+  D0    RNC            RET  NC
+  D1    POP  D         POP  DE
+  D2    JNC  adr       JP   NC,adr
+  D3    OUT  port      OUT  port,A
+  D4    CNC  adr       CALL NC,adr
+  D5    PUSH D         PUSH DE
+  D6    SUI  dd        SUB  dd
+  D7    RST  2         RST  10H
+  D8    RC             RET  C
+  D9    ----           EXX
+  DA    JC   adr       JP   C,adr
+  DB    IN   port      IN   A,port
+  DC    CC   adr       CALL C,adr
+  DD    ----           see below
+  DE    SBI  dd        SBC  A,dd
+  DF    RST  3         RST  18H
+
+  E0    RPO            RET  PO
+  E1    POP  H         POP  HL
+  E2    JPO  adr       JP   PO,adr
+  E3    XTHL           EX   (SP),HL
+  E4    CPO  adr       CALL PO,adr
+  E5    PUSH H         PUSH HL
+  E6    ANI  dd        AND  dd
+  E7    RST  4         RST  20H
+  E8    RPE            RET  PE
+  E9    PCHL           JP   (HL)
+  EA    JPE  adr       JP   PE,adr
+  EB    XCHG           EX   DE,HL
+  EC    CPE  adr       CALL PE,adr
+  ED    ----           see below
+  EE    XRI  dd        XOR  dd
+  EF    RST  5         RST  28H
+
+  F0    RP             RET  P
+  F1    POP  PSW       POP  AF
+  F2    JP   adr       JP   P,adr
+  F3    DI             DI
+  F4    CP   adr       CALL P,adr
+  F5    PUSH PSW       PUSH AF
+  F6    ORI  dd        OR   dd
+  F7    RST  6         RST  30H
+  F8    RM             RET  M
+  F9    SPHL           LD   SP,HL
+  FA    JM   adr       JP   M,adr
+  FB    EI             EI
+  FC    CM   adr       CALL M,adr
+  FD    ----           see below
+  FE    CPI  dd        CP   dd
+  FF    RST  7         RST  38H
+
+
+  Следующие инстpукции уникальны для Z80.
+
+  Код     Мнемоника
+
+  CB00     RLC  B
+  CB01     RLC  C
+  CBO2     RLC  D
+  CB03     RLC  E
+  CB04     RLC  H
+  CB05     RLC  L
+  CB06     RLC  (HL)
+  CB07     RLC  A
+  CB08     RRC  B
+  CBO9     RRC  C
+  CB0A     RRC  D
+  CB0A     RRC  D
+  CB0B     RRC  E
+  CB0C     RRC  H
+  CB0D     RRC  L
+  CB0E     RRC  (HL)
+  CB0F     RRC  A
+
+  CB10     RL   B
+  CB11     RL   C
+  CB12     RL   D
+  CB13     RL   E
+  CB14     RL   H
+  CB15     RL   L
+  CB16     RL   (HL)
+  CB17     RL   A
+  CB18     RR   B
+  CB19     RR   C
+  CB1A     RR   D
+  CB1B     RR   E
+  CB1C     RR   H
+  CB1D     RR   L
+  CB1E     RR   (HL)
+  CB1F     RR   A
+
+  CB20     SLA  B
+  CB21     SLA  C
+  CB22     SLA  D
+  CB23     SLA  E
+  CB24     SLA  H
+  CB25     SLA  L
+  CB26     SLA  (HL)
+  CB27     SLA  A
+  CB28     SRA  B
+  CB29     SRA  C
+  CB2A     SRA  D
+  CB2B     SRA  E
+  CB2C     SRA  H
+  CB2D     SRA  L
+  CB2E     SRA  (HL)
+  CB2F     SRA  A
+  CB30-CB37 - не используются
+  CB38     SRL  B
+  CB39     SRL  C
+  CB3A     SRL  D
+  CB3A     SRL  D
+  CB3B     SRL  E
+  CB3C     SRL  H
+  CB3D     SRL  L
+  CB3E     SRL  (HL)
+  CB3F     SRL  A
+
+  CB40     BIT  0,B
+  CB41     BIT  0,C
+  CB42     BIT  0,D
+  CB43     BIT  0,E
+  CB44     BIT  0,H
+  CB45     BIT  0,L
+  CB46     BIT  0,(HL)
+  CB47     BIT  0,A
+  CB48     BIT  1,B
+  CB49     BIT  1,C
+  CB4A     BIT  1,D
+  CB4B     BIT  1,E
+  CB4C     BIT  1,H
+  CB4D     BIT  1,L
+  CB4E     BIT  1,(HL)
+  CB4F     BIT  1,A
+
+  CB50     BIT  2,B
+  CB51     BIT  2,C
+  CB52     BIT  2,D
+  CB53     BIT  2,E
+  CB54     BIT  2,H
+  CB55     BIT  2,L
+  CB56     BIT  2,(HL)
+  CB57     BIT  2,A
+  CB58     BIT  3,B
+  CB59     BIT  3,C
+  CB5A     BIT  3,D
+  CB5B     BIT  3,E
+  CB5C     BIT  3,H
+  CB5D     BIT  3,L
+  CB5E     BIT  3,(HL)
+  CB5F     BIT  3,A
+
+  CB60     BIT  4,B
+  CB61     BIT  4,C
+  CB62     BIT  4,D
+  CB63     BIT  4,E
+  CB64     BIT  4,H
+  CB65     BIT  4,L
+  CB66     BIT  4,(HL)
+  CB67     BIT  4,A
+  CB68     BIT  5,B
+  CB69     BIT  5,C
+  CB6A     BIT  5,D
+  CB6B     BIT  5,E
+  CB6C     BIT  5,H
+  CB6D     BIT  5,L
+  CB6E     BIT  5,(HL)
+  CB6F     BIT  5,A
+
+  CB70     BIT  6,B
+  CB71     BIT  6,C
+  CB72     BIT  6,D
+  CB73     BIT  6,E
+  CB74     BIT  6,H
+  CB75     BIT  6,L
+  CB76     BIT  6,(HL)
+  CB77     BIT  6,A
+  CB78     BIT  7,B
+  CB79     BIT  7,C
+  CB7A     BIT  7,D
+  CB7B     BIT  7,E
+  CB7C     BIT  7,H
+  CB7D     BIT  7,L
+  CB7E     BIT  7,(HL)
+  CB7F     BIT  7,A
+
+  CB80     RES  0,B
+  CB81     RES  0,C
+  CB82     RES  0,D
+  CB83     RES  0,E
+  CB84     RES  0,H
+  CB85     RES  0,L
+  CB86     RES  0,(HL)
+  CB87     RES  0,A
+  CB88     RES  1,B
+  CB89     RES  1,C
+  CB8A     RES  1,D
+  CB8B     RES  1,E
+  CB8C     RES  1,H
+  CB8D     RES  1,L
+  CB8E     RES  1,(HL)
+  CB8F     RES  1,A
+
+  CB90     SET  2,B
+  CB91     SET  2,C
+  CB92     SET  2,D
+  CB93     RES  2,E
+  CB94     RES  2,H
+  CB95     RES  2,L
+  CB96     RES  2,(HL)
+  CB97     RES  2,A
+  CB98     RES  3,B
+  CB99     RES  3,C
+  CB9A     RES  3,D
+  CB9B     RES  3,E
+  CB9C     RES  3,H
+  CB9D     RES  3,L
+  CB9E     RES  3,(HL)
+  CB9F     RES  3,A
+
+  CBA0     RES  4,B
+  CBA1     RES  4,C
+  CBA2     RES  4,D
+  CBA3     RES  4,E
+  CBA4     RES  4,H
+  CBA5     RES  4,L
+  CBA6     RES  4,(HL)
+  CBA7     RES  4,A
+  CBA8     RES  5,B
+  CBA9     RES  5,C
+  CBAA     RES  5,D
+  CBAB     RES  5,E
+  CBAC     RES  5,H
+  CBAD     RES  5,L
+  CBAE     RES  5,(HL)
+  CBAF     RES  5,A
+
+  CBB0     RES  6,B
+  CBB1     RES  6,C
+  CBB2     RES  6,D
+  CBB3     RES  6,E
+  CBB4     RES  6,H
+  CBB5     RES  6,L
+  CBB6     RES  6,(HL)
+  CBB7     RES  6,A
+  CBB8     RES  7,B
+  CBB9     RES  7,C
+  CBBA     RES  7,D
+  CBBB     RES  7,E
+  CBBC     RES  7,H
+  CBBD     RES  7,L
+  CBBE     RES  7,(HL)
+  CBBF     RES  7,A
+
+  CBC0     SET  0,B
+  CBC1     SET  0,C
+  CBC2     SET  0,D
+  CBC3     SET  0,E
+  CBC4     SET  0,H
+  CBC5     SET  0,L
+  CBC6     SET  0,(HL)
+  CBC7     SET  0,A
+  CBC8     SET  1,B
+  CBC9     SET  1,C
+  CBCA     SET  1,D
+  CBCB     SET  1,E
+  CBCC     SET  1,H
+  CBCD     SET  1,L
+  CBCE     SET  1,(HL)
+  CBCF     SET  1,A
+
+  CBD0     SET  2,B
+  CBD1     SET  2,C
+  CBD2     SET  2,D
+  CBD3     SET  2,E
+  CBD4     SET  2,H
+  CBD5     SET  2,L
+  CBD6     SET  2,(HL)
+  CBD7     SET  2,A
+  CBD8     SET  3,B
+  CBD8     SET  3,C
+  CBDA     SET  3,D
+  CBDB     SET  3,E
+  CBDC     SET  3,H
+  CBDD     SET  3,L
+  CBDE     SET  3,(HL)
+  CBDF     SET  3,A
+                                      
+  CBE0     SET  4,B
+  CBE1     SET  4,C
+  CBE2     SET  4,D
+  CBE3     SET  4,E
+  CBE4     SET  4,H
+  CBE5     SET  4,L
+  CBE6     SET  4,(HL)
+  CBE7     SET  4,A
+  CBE8     SET  5,B
+  CBE9     SET  5,C
+  CBEA     SET  5,D
+  CBEB     SET  5,E
+  CBEC     SET  5,H
+  CBED     SET  5,L
+  CBEE     SET  5,(HL)
+  CBEF     SET  5,A
+
+  CBF0     SET  6,B
+  CBF1     SET  6,C
+  CBF2     SET  6,D
+  CBF3     SET  6,E
+  CBF4     SET  6,H
+  CBF5     SET  6,L
+  CBF6     SET  6,(HL)
+  CBF7     SET  6,A
+  CBF8     SET  7,B
+  CBF9     SET  7,C
+  CBFA     SET  7,D
+  CBFB     SET  7,E
+  CBFC     SET  7,H
+  CBFD     SET  7,L
+  CBFE     SET  7,(HL)
+  CBFF     SET  7,A
+
+ Команды с пpефиксом ED
+
+  ED40     IN   B,(C)
+  ED41     OUT  (C),B
+  ED42     SBC  HL,BC
+  ED43     LD   (dddd),BC
+  ED44     NEG
+  ED45     RETN
+  ED46     IM   0
+  ED47     LD   I,A
+  ED48     IN   C,(C)
+  ED49     OUT  (C),C
+  ED4A     ADC  HL,BC
+  ED4B     LD   BC,(adr)
+  ED4D     RETI
+
+  ED50     IN   D,(C)
+  ED51     OUT  (C),D
+  ED52     SBC  HL,DE
+  ED53     LDS  (adr),DE
+
+  ED56     IM   1
+  ED57     LD   A,I
+  ED58     IN   E,(C)
+  ED59     OUT  (C),E
+  ED5A     ADC  HL,DE
+  ED5B     LD   DE,(adr)
+
+  ED5E     IM   2
+
+  ED60     IN   H,(C)
+  ED61     OUT  (C),H
+  ED62     SBC  HL,HL
+
+  ED67     RRD
+  ED68     IN   L.(C)
+  ED69     OUT  (C),L
+  ED6A     ADC  HL,HL
+
+  ED6F     RLD
+
+  ED72     SBC  HL,SP
+  ED73     LD   (adr),SP
+
+  ED78     IN   A,(C)
+  ED79     OUT  (C),A
+  ED7A     ADC  HL,SP
+  ED7B     LD   SP,(adr)
+
+  EDA0     LDI
+  EDA1     CPI
+  EDA2     INI
+  EDA3     OUTI
+
+  EDA8     LDD
+  EDA9     CPD
+  EDAA     IND
+  EDAB     OUTD
+
+  EDB0     LDIR
+  EDB1     CPIR
+  EDB2     INIR
+  EDB3     OTIR
+
+  EDB8     LDDR
+  EDB9     CPDR
+  EDBA     INDR
+  EDBB     OTDR
+
+ Команды с пpефиксом DD для IX
+
+  DD09      ADD  IX,BC
+  DD19      ADD  IX,DE
+  DD21      LD   IX,dddd
+  DD22      LD   (adr),IX
+  DD23      INC  IX
+  DD29      ADD  IX,IX
+  DD2A      LD   IX,(adr)
+
+  DD34      INC  (IX+offset)
+  DD35      DEC  (IX+offset)
+  DD36      LD   (IX+offset)
+  DD39      ADD  IX,SP
+
+  DD46      LD   B,(IX+offset)
+  DD4E      LD   C,(IX+offset)
+
+  DD56      LD   D,(IX+offset)
+  DD5E      LD   E,(IX+offset)
+
+  DD66      LD   H,(IX+offset)
+  DD6E      LD   L,(IX+offset)
+
+  DD70      LD   (IX+offset),B
+  DD71      LD   (IX+offset),C
+  DD72      LD   (IX+offset),D
+  DD73      LD   (IX+offset),E
+  DD74      LD   (IX+offset),H
+  DD75      LD   (IX+offset),L
+  DD77      LD   (IX+offset),A
+  DD7E      LD   A,(IX+offset)
+
+  DD86      ADD  A,(IX+offset)
+  DD8E      ADC  A,(IX+offset)
+
+  DDAE      XOR  (IX+offset)
+  DDB6      OR   (IX+offset)
+  DDBE      CP   (IX+offset)
+
+  DDCB06    RLC  (IX+offset)
+  DDCB0E    RRC  (IX+offset)
+  DDCB16    RL   (IX+offset)
+  DDCB1E    RR   (IX+offset)
+  DDCB26    SLA  (IX+offset)
+  DDCB2E    SRA  (IX+offset)
+  DDCB3E    SRL  (IX+offset)
+  DDCB46    BIT  0,(IX+offset)
+  DDCB4E    BIT  1,(IX+offset)
+  DDCB56    BIT  2,(IX+offset)
+  DDCB5E    BIT  3,(IX+offset)
+  DDCB66    BIT  4,(IX+offset)
+  DDCB6E    BIT  5,(IX+offset)
+  DDCB76    BIT  6,(IX+offset)
+  DDCB7E    BIT  7,(IX+offset)
+  DDCB86    RES  0,(IX+offset)
+  DDCB8E    RES  1,(IX+offset)
+  DDCB96    RES  2,(IX+offset)
+  DDCB9E    RES  3,(IX+offset)
+  DDCBA6    RES  4,(IX+offset)
+  DDCBAE    RES  5,(IX+offset)
+  DDCBB6    RES  6,(IX+offset)
+  DDCBBE    RES  7,(IX+offset)
+  DDCBC6    SET  0,(IX+offset)
+  DDCBCE    SET  1,(IX+offset)
+  DDCBD6    SET  2,(IX+offset)
+  DDCBDE    SET  3,(IX+offset)
+  DDCBE6    SET  4,(IX+offset)
+  DDCBEE    SET  5,(IX+offset)
+  DDCBF6    SET  6,(IX+offset)
+  DDCBFE    SET  7,(IX+offset)
+
+  DDE9      JP   (IX)
+  DDF9      LD   SP,IX
+
+ Команды с пpефиксом FD для IY
+
+  FD09      ADD  IY,BC
+  FD19      ADD  IY,DE
+  FD21      LD   IY,dddd
+  FD22      LD   (adr),IY
+  FD23      INC  IY
+  FD29      ADD  IY,IY
+  FD2A      LD   IY,(adr)
+  FD2B      DEC  IY
+  FD34      INC  (IY+offset)
+  FD35      DEC  (IY+offset)
+  FD36      LD   (IY+offset),dd
+  FD39      ADD  IY,SP
+  FD46      LD   B,(IY+offset)
+  FD4E      LD   C,(IY+offset)
+  FD56      LD   D,(IY+offset)
+  FD5E      LD   E,(IY+offset)
+  FD66      LD   H,(IY+offset)
+  FD6E      LD   L,(IY+offset)
+  FD70      LD   (IY+offset),B
+  FD71      LD   (IY+offset),C
+  FD72      LD   (IY+offset),D
+  FD73      LD   (IY+offset),E
+  FD74      LD   (IY+offset),H
+  FD75      LD   (IY+offset),L
+  FD77      LD   (IY+offset),A
+  FD7E      LD   A,(IY+offset)
+
+  FD86      ADD  A,(IY+offset)
+  FD8E      ADD  A,(IY+offset)
+  FD96      SUB  (IY+offset)
+  FD9E      SBC  A,(IY+offset)
+  FDA6      AND  (IY+offset)
+  FDAE      XOR  (IY+offset)
+  FDB6      OR   (IY+offset)
+  FDBE      CP   (IY+offset)
+  FDCB06    RLC  (IY+offset)
+  FDCB0E    RC  (IY+offset)
+  FDCB16    RL   (IY+offset)
+  FDCB1E    RR   (IY+offset)
+  FDCB26    SLA  (IY+offset)
+  FDCB2e    SRA  (IY+offset)
+  FDCB3E    SRL  (IY+offset)
+  FDCB46    BIT  0,(IY+offset)
+  FDCB4E    BIT  1,(IY+offset)
+  FDCB56    BIT  2,(IY+offset)
+  FDCB5E    BIT  3,(IY+offset)
+  FDCB66    BIT  4,(IY+offset)
+  FDCB6E    BIT  5,(IY+offset)
+  FDCB76    BIT  6,(IY+offset)
+  FDCB7E    BIT  7,(IY+offset)
+  FDCB86    RES  0,(IY+offset)
+  FDCB8E    RES  1,(IY+offset)
+  FDCB96    RES  2,(IY+offset)
+  FDCB9E    RES  3,(IY+offset)
+  FDCBA6    RES  4,(IY+offset)
+  FDCBAE    RES  5,(IY+offset)
+  FDCBB6    RES  6,(IY+offset)
+  FDCBBE    RES  7,(IY+offset)
+  FDCBC6    SET  0,(IY+offset)
+  FDCBCE    SET  1,(IY+offset)
+  FDCBD6    SET  2,(IY+offset)
+  FDCBDE    SET  3,(IY+offset)
+  FDCBE6    SET  4,(IY+offset)
+  FDCBEE    SET  5,(IY+offset)
+  FDCBF6    SET  6,(IY+offset)
+  FDCBFE    SET  7,(IY+offset)
+  FDE1      POP  IY
+  FDE3      EX   (SP),IY
+  FDE5      PUSH IY
+  FDE9      JP   (IY)
+  FDF9      LD   SP,IY
+▐ ▒ ⌠@∙`≈А≥а©÷²р÷ ║ ё@╔`╖А╘а╚░╜╟©©©©с у@х`чАщаы░©яя ╠ Ё@╣`╥А©©©©©©╫╟©©
