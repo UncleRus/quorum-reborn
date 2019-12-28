@@ -1,4 +1,4 @@
-update=Sun 15 Dec 2019 19:12:10 +05
+update=Sat 28 Dec 2019 14:52:46 +05
 version=1
 last_client=kicad
 [general]
@@ -33,10 +33,10 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=gost_landscape.kicad_wks
 PlotDirectoryName=plot/
-SubpartIdSeparator=0
-SubpartFirstId=65
+SubpartIdSeparator=46
+SubpartFirstId=49
 NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50

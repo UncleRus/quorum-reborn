@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Magic-05-cache
+LIBS:Quorum-64-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
