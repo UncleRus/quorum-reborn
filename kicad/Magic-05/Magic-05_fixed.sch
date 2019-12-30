@@ -3349,7 +3349,7 @@ Entry Wire Line
 Wire Wire Line
 	7900 17700 7400 17700
 Text Label 7400 17700 0    50   ~ 0
-A1
+A2
 Entry Wire Line
 	7400 17700 7300 17600
 Wire Wire Line
