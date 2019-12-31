@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Magic-05-cache
 EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
@@ -8315,7 +8314,7 @@ Wire Wire Line
 Entry Wire Line
 	10350 14650 10450 14550
 Text Label 10350 14650 2    50   ~ 0
-~NMI
+KNMI
 Entry Wire Line
 	10750 15550 10850 15450
 Wire Wire Line
@@ -11181,7 +11180,6 @@ F 3 "" H 21850 18300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 21850 18500
-NoConn ~ 21850 18400
 NoConn ~ 20850 20300
 NoConn ~ 20850 20000
 Text Label 21250 20100 2    50   ~ 0
@@ -11680,6 +11678,12 @@ Wire Wire Line
 	15550 18100 16250 18100
 Wire Wire Line
 	15450 19100 16250 19100
+Wire Wire Line
+	21450 18400 21850 18400
+Text Label 21450 18400 0    50   ~ 0
+KNMI
+Entry Wire Line
+	21350 18500 21450 18400
 Wire Bus Line
 	31200 10500 31200 12850
 Wire Bus Line
