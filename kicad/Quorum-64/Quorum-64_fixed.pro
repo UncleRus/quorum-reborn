@@ -1,4 +1,4 @@
-update=Sun 15 Dec 2019 19:13:38 +05
+update=Fri 03 Jan 2020 18:59:08 +05
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=gost_landscape.kicad_wks
 PlotDirectoryName=plot/
 SubpartIdSeparator=46
 SubpartFirstId=49
