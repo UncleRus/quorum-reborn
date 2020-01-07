@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ics_gost)(type Legacy)(uri ${KIPRJMOD}/../libs/ics_gost.lib)(options "")(descr ""))
+  (lib (name gost_common)(type Legacy)(uri ${KIPRJMOD}/../libs/gost_common.lib)(options "")(descr ""))
+)

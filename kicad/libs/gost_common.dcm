@@ -45,8 +45,24 @@ D Polar capacitor with straight leads
 K Capacitor
 $ENDCMP
 #
+$CMP DIODE
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP FUSE
+D Fuse
+K Fuse
+$ENDCMP
+#
 $CMP GND
 D Ground Symbol
+$ENDCMP
+#
+$CMP RESISTOR
+D Resistor, 0.125W
+K Resistor, 1/8W
 $ENDCMP
 #
 $CMP R_0125
@@ -57,11 +73,6 @@ $ENDCMP
 $CMP R_0250
 D Resistor, 0.25W
 K Resistor, 1/4W
-$ENDCMP
-#
-$CMP R_TRIM
-D Resistor, 0.125W
-K Resistor, 1/8W
 $ENDCMP
 #
 $CMP SWITCH
@@ -84,6 +95,12 @@ $ENDCMP
 #
 $CMP VT_PNP
 D PNP Transistor
+$ENDCMP
+#
+$CMP ZENER
+D Zener Diode
+K zener diode
+F ~
 $ENDCMP
 #
 #End Doc Library
