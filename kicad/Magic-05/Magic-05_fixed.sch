@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Magic 05"
 Date ""
 Rev ""
-Comp "Kamil Karimov"
+Comp "НПО \"Интеграл\""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -11654,6 +11654,18 @@ Wire Wire Line
 	10250 21400 10250 21300
 Wire Wire Line
 	10250 21300 10950 21300
+$Comp
+L gost_common:GND #PWR?
+U 1 1 63B3E4F6
+P 9350 21800
+F 0 "#PWR?" H 9350 21830 50  0001 C BNN
+F 1 "GND" H 9350 21670 50  0001 C TNN
+F 2 "" H 9350 21800 0   0001 C CNN
+F 3 "" H 9350 21800 50  0001 C CNN
+	1    9350 21800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 21800
 Wire Bus Line
 	30850 11150 30850 13500
 Wire Bus Line
@@ -11724,16 +11736,4 @@ Wire Bus Line
 	26450 8950 26450 18100
 Wire Bus Line
 	28750 8950 28750 18100
-$Comp
-L gost_common:GND #PWR?
-U 1 1 63B3E4F6
-P 9350 21800
-F 0 "#PWR?" H 9350 21830 50  0001 C BNN
-F 1 "GND" H 9350 21670 50  0001 C TNN
-F 2 "" H 9350 21800 0   0001 C CNN
-F 3 "" H 9350 21800 50  0001 C CNN
-	1    9350 21800
-	1    0    0    -1  
-$EndComp
-Connection ~ 9350 21800
 $EndSCHEMATC

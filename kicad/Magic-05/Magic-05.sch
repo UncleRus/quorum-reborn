@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Magic 05"
 Date ""
 Rev ""
-Comp "Kamil Karimov"
+Comp "НПО \"Интеграл\""
 Comment1 ""
 Comment2 ""
 Comment3 ""
