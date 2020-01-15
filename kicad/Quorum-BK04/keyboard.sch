@@ -1,0 +1,3354 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title "Quorum/Magic keyboard"
+Date "2019-12-13"
+Rev "1.1"
+Comp "Kamil Karimov"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A428461
+P 3950 2700
+AR Path="/6A428461" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A428461" Ref="S1"  Part="1" 
+AR Path="/5EFD2360/6A428461" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 2750 50  0000 C CNN
+F 1 "27h" H 3650 2650 50  0000 C CNN
+F 2 "" H 3950 2700 0   0001 C CNN
+F 3 "" H 3950 2700 50  0001 C CNN
+	1    3950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A428467
+P 3950 3400
+AR Path="/6A428467" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A428467" Ref="S2"  Part="1" 
+AR Path="/5EFD2360/6A428467" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 3450 50  0000 C CNN
+F 1 "26h" H 3650 3350 50  0000 C CNN
+F 2 "" H 3950 3400 0   0001 C CNN
+F 3 "" H 3950 3400 50  0001 C CNN
+	1    3950 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 2600 0    50   ~ 10
+CAPS\nSHIFT
+Text Notes 3900 3250 0    50   ~ 10
+A
+Wire Notes Line
+	3800 2450 3800 2600
+Wire Notes Line
+	3800 2600 4050 2600
+Wire Notes Line
+	4050 2600 4050 2450
+Wire Notes Line
+	4050 2450 3800 2450
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A43038B
+P 3950 4100
+AR Path="/6A43038B" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A43038B" Ref="S3"  Part="1" 
+AR Path="/5EFD2360/6A43038B" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 4150 50  0000 C CNN
+F 1 "25h" H 3650 4050 50  0000 C CNN
+F 2 "" H 3950 4100 0   0001 C CNN
+F 3 "" H 3950 4100 50  0001 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 3900 3950 0    50   ~ 10
+Q
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4314C2
+P 3950 4800
+AR Path="/6A4314C2" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4314C2" Ref="S4"  Part="1" 
+AR Path="/5EFD2360/6A4314C2" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 4850 50  0000 C CNN
+F 1 "24h" H 3650 4750 50  0000 C CNN
+F 2 "" H 3950 4800 0   0001 C CNN
+F 3 "" H 3950 4800 50  0001 C CNN
+	1    3950 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 3900 4650 0    50   ~ 10
+1
+Wire Wire Line
+	3800 2700 3750 2700
+Wire Wire Line
+	4050 3400 4100 3400
+Wire Wire Line
+	4100 3400 4100 3100
+Wire Wire Line
+	4050 2700 4100 2700
+Wire Wire Line
+	4100 2700 4100 2400
+Wire Wire Line
+	4050 4100 4100 4100
+Wire Wire Line
+	4100 4100 4100 3800
+Wire Wire Line
+	4100 2400 4700 2400
+Wire Wire Line
+	4100 3100 4700 3100
+Wire Wire Line
+	4100 3800 4700 3800
+Wire Wire Line
+	4050 4800 4100 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A46C781
+P 4550 2700
+AR Path="/6A46C781" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A46C781" Ref="S10"  Part="1" 
+AR Path="/5EFD2360/6A46C781" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 2750 50  0000 C CNN
+F 1 "1Fh" H 4250 2650 50  0000 C CNN
+F 2 "" H 4550 2700 0   0001 C CNN
+F 3 "" H 4550 2700 50  0001 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 2550 0    50   ~ 10
+Z
+Wire Wire Line
+	4650 2700 4700 2700
+Wire Wire Line
+	4700 2700 4700 2400
+Connection ~ 4700 2400
+Wire Wire Line
+	4700 2400 5300 2400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4703CD
+P 4550 3400
+AR Path="/6A4703CD" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4703CD" Ref="S11"  Part="1" 
+AR Path="/5EFD2360/6A4703CD" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 3450 50  0000 C CNN
+F 1 "1Eh" H 4250 3350 50  0000 C CNN
+F 2 "" H 4550 3400 0   0001 C CNN
+F 3 "" H 4550 3400 50  0001 C CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 3250 0    50   ~ 10
+S
+Wire Wire Line
+	4650 3400 4700 3400
+Wire Wire Line
+	4700 3400 4700 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	4700 3100 5300 3100
+Wire Wire Line
+	3750 2700 3750 3400
+Text Notes 3850 5650 0    50   ~ 10
+FIRE
+Text Notes 3900 5350 0    50   ~ 10
+0
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4348E7
+P 3950 5800
+AR Path="/6A4348E7" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4348E7" Ref="S6"  Part="1" 
+AR Path="/5EFD2360/6A4348E7" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 5850 50  0000 C CNN
+F 1 "23h" H 3650 5750 50  0000 C CNN
+F 2 "" H 3950 5800 0   0001 C CNN
+F 3 "" H 3950 5800 50  0001 C CNN
+	1    3950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A432EC5
+P 3950 5500
+AR Path="/6A432EC5" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A432EC5" Ref="S5"  Part="1" 
+AR Path="/5EFD2360/6A432EC5" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 5550 50  0000 C CNN
+F 1 "23h" H 3650 5450 50  0000 C CNN
+F 2 "" H 3950 5500 0   0001 C CNN
+F 3 "" H 3950 5500 50  0001 C CNN
+	1    3950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3400 3800 3400
+Connection ~ 3750 3400
+Wire Wire Line
+	3750 3400 3750 4100
+Wire Wire Line
+	3750 4100 3800 4100
+Connection ~ 3750 4100
+Wire Wire Line
+	3750 4100 3750 4800
+Wire Wire Line
+	3750 4800 3800 4800
+Connection ~ 3750 4800
+Wire Wire Line
+	3750 4800 3750 5500
+Wire Wire Line
+	3750 5500 3800 5500
+Connection ~ 3750 5500
+Wire Wire Line
+	3750 5500 3750 5800
+Wire Wire Line
+	3750 5800 3800 5800
+Connection ~ 3750 5800
+Wire Wire Line
+	3750 5800 3750 6200
+Wire Wire Line
+	4050 5500 4100 5500
+Wire Wire Line
+	4100 5500 4100 5200
+Wire Wire Line
+	4100 4800 4100 4500
+Wire Wire Line
+	4100 4500 4700 4500
+Wire Wire Line
+	4050 5800 4100 5800
+Wire Wire Line
+	4100 5800 4100 5500
+Connection ~ 4100 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4A3C25
+P 3950 6200
+AR Path="/6A4A3C25" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4A3C25" Ref="S7"  Part="1" 
+AR Path="/5EFD2360/6A4A3C25" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 6250 50  0000 C CNN
+F 1 "22h" H 3650 6150 50  0000 C CNN
+F 2 "" H 3950 6200 0   0001 C CNN
+F 3 "" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 3900 6050 0    50   ~ 10
+P
+Wire Wire Line
+	4050 6200 4100 6200
+Wire Wire Line
+	3750 6200 3800 6200
+Wire Wire Line
+	4100 6200 4100 5900
+Wire Wire Line
+	4100 5900 4700 5900
+Connection ~ 3750 6200
+Wire Wire Line
+	3750 6200 3750 6900
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4A7A90
+P 3950 6900
+AR Path="/6A4A7A90" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4A7A90" Ref="S8"  Part="1" 
+AR Path="/5EFD2360/6A4A7A90" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 6950 50  0000 C CNN
+F 1 "21h" H 3650 6850 50  0000 C CNN
+F 2 "" H 3950 6900 0   0001 C CNN
+F 3 "" H 3950 6900 50  0001 C CNN
+	1    3950 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 6750 0    50   ~ 10
+ENTER
+Wire Wire Line
+	4050 6900 4100 6900
+Wire Wire Line
+	3750 6900 3800 6900
+Wire Wire Line
+	4100 6900 4100 6600
+Connection ~ 3750 6900
+Wire Notes Line
+	3800 3150 3800 3300
+Wire Notes Line
+	3800 3300 4050 3300
+Wire Notes Line
+	4050 3150 3800 3150
+Wire Notes Line
+	4050 3300 4050 3150
+Wire Notes Line
+	4400 3150 4400 3300
+Wire Notes Line
+	4400 3300 4650 3300
+Wire Notes Line
+	4650 3150 4400 3150
+Wire Notes Line
+	4650 3300 4650 3150
+Wire Notes Line
+	3800 3850 3800 4000
+Wire Notes Line
+	3800 4000 4050 4000
+Wire Notes Line
+	4050 3850 3800 3850
+Wire Notes Line
+	4050 4000 4050 3850
+Wire Notes Line
+	3800 4550 3800 4700
+Wire Notes Line
+	3800 4700 4050 4700
+Wire Notes Line
+	4050 4550 3800 4550
+Wire Notes Line
+	4050 4700 4050 4550
+Wire Notes Line
+	3800 5250 3800 5400
+Wire Notes Line
+	3800 5400 4050 5400
+Wire Notes Line
+	4050 5250 3800 5250
+Wire Notes Line
+	4050 5400 4050 5250
+Wire Notes Line
+	3800 5550 3800 5700
+Wire Notes Line
+	3800 5700 4050 5700
+Wire Notes Line
+	4050 5550 3800 5550
+Wire Notes Line
+	4050 5700 4050 5550
+Wire Notes Line
+	3800 5950 3800 6100
+Wire Notes Line
+	3800 6100 4050 6100
+Wire Notes Line
+	4050 5950 3800 5950
+Wire Notes Line
+	4050 6100 4050 5950
+Wire Notes Line
+	3800 6650 3800 6800
+Wire Notes Line
+	3800 6800 4050 6800
+Wire Notes Line
+	4050 6650 3800 6650
+Wire Notes Line
+	4050 6800 4050 6650
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4C9467
+P 3950 7600
+AR Path="/6A4C9467" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4C9467" Ref="S9"  Part="1" 
+AR Path="/5EFD2360/6A4C9467" Ref="S?"  Part="1" 
+F 0 "S?" H 3650 7650 50  0000 C CNN
+F 1 "20h" H 3650 7550 50  0000 C CNN
+F 2 "" H 3950 7600 0   0001 C CNN
+F 3 "" H 3950 7600 50  0001 C CNN
+	1    3950 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 7450 0    50   ~ 10
+SPACE
+Wire Wire Line
+	4050 7600 4100 7600
+Wire Wire Line
+	3750 7600 3800 7600
+Wire Wire Line
+	4100 7600 4100 7300
+Wire Wire Line
+	4100 7300 4700 7300
+Wire Notes Line
+	3800 7350 3800 7500
+Wire Notes Line
+	3800 7500 4050 7500
+Wire Notes Line
+	4050 7350 3800 7350
+Wire Notes Line
+	4050 7500 4050 7350
+Wire Wire Line
+	3750 6900 3750 7600
+Wire Notes Line
+	4400 2450 4400 2600
+Wire Notes Line
+	4400 2600 4650 2600
+Wire Notes Line
+	4650 2450 4400 2450
+Wire Notes Line
+	4650 2600 4650 2450
+Wire Wire Line
+	4400 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 3400
+Wire Wire Line
+	4350 3400 4400 3400
+Connection ~ 4350 3400
+Wire Wire Line
+	4350 3400 4350 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4D93FE
+P 4550 4100
+AR Path="/6A4D93FE" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4D93FE" Ref="S12"  Part="1" 
+AR Path="/5EFD2360/6A4D93FE" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 4150 50  0000 C CNN
+F 1 "1Dh" H 4250 4050 50  0000 C CNN
+F 2 "" H 4550 4100 0   0001 C CNN
+F 3 "" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 3950 0    50   ~ 10
+W
+Wire Wire Line
+	4650 4100 4700 4100
+Wire Wire Line
+	4700 4100 4700 3800
+Wire Notes Line
+	4400 3850 4400 4000
+Wire Notes Line
+	4400 4000 4650 4000
+Wire Notes Line
+	4650 3850 4400 3850
+Wire Notes Line
+	4650 4000 4650 3850
+Wire Wire Line
+	4350 4100 4400 4100
+Connection ~ 4350 4100
+Wire Wire Line
+	4350 4100 4350 4800
+Connection ~ 4700 3800
+Wire Wire Line
+	4700 3800 5300 3800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4DF367
+P 4550 4800
+AR Path="/6A4DF367" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4DF367" Ref="S13"  Part="1" 
+AR Path="/5EFD2360/6A4DF367" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 4850 50  0000 C CNN
+F 1 "1Ch" H 4250 4750 50  0000 C CNN
+F 2 "" H 4550 4800 0   0001 C CNN
+F 3 "" H 4550 4800 50  0001 C CNN
+	1    4550 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 4650 0    50   ~ 10
+2
+Wire Wire Line
+	4650 4800 4700 4800
+Wire Wire Line
+	4700 4800 4700 4500
+Wire Notes Line
+	4400 4550 4400 4700
+Wire Notes Line
+	4400 4700 4650 4700
+Wire Notes Line
+	4650 4550 4400 4550
+Wire Notes Line
+	4650 4700 4650 4550
+Wire Wire Line
+	4350 4800 4400 4800
+Connection ~ 4350 4800
+Connection ~ 4700 4500
+Wire Wire Line
+	4700 4500 5300 4500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4E2BBC
+P 4550 5500
+AR Path="/6A4E2BBC" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4E2BBC" Ref="S14"  Part="1" 
+AR Path="/5EFD2360/6A4E2BBC" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 5550 50  0000 C CNN
+F 1 "1Bh" H 4250 5450 50  0000 C CNN
+F 2 "" H 4550 5500 0   0001 C CNN
+F 3 "" H 4550 5500 50  0001 C CNN
+	1    4550 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 5350 0    50   ~ 10
+9
+Wire Wire Line
+	4650 5500 4700 5500
+Wire Wire Line
+	4700 5500 4700 5200
+Wire Notes Line
+	4400 5250 4400 5400
+Wire Notes Line
+	4400 5400 4650 5400
+Wire Notes Line
+	4650 5250 4400 5250
+Wire Notes Line
+	4650 5400 4650 5250
+Wire Wire Line
+	4350 5500 4400 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4E678E
+P 4550 6200
+AR Path="/6A4E678E" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4E678E" Ref="S15"  Part="1" 
+AR Path="/5EFD2360/6A4E678E" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 6250 50  0000 C CNN
+F 1 "1Ah" H 4250 6150 50  0000 C CNN
+F 2 "" H 4550 6200 0   0001 C CNN
+F 3 "" H 4550 6200 50  0001 C CNN
+	1    4550 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 6050 0    50   ~ 10
+O
+Wire Wire Line
+	4650 6200 4700 6200
+Wire Wire Line
+	4700 6200 4700 5900
+Wire Notes Line
+	4400 5950 4400 6100
+Wire Notes Line
+	4400 6100 4650 6100
+Wire Notes Line
+	4650 5950 4400 5950
+Wire Notes Line
+	4650 6100 4650 5950
+Wire Wire Line
+	4350 6200 4400 6200
+Connection ~ 4350 6200
+Wire Wire Line
+	4350 6200 4350 6900
+Connection ~ 4700 5900
+Wire Wire Line
+	4700 5900 5300 5900
+Wire Wire Line
+	4100 6600 4700 6600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4EE902
+P 4550 6900
+AR Path="/6A4EE902" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4EE902" Ref="S16"  Part="1" 
+AR Path="/5EFD2360/6A4EE902" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 6950 50  0000 C CNN
+F 1 "19h" H 4250 6850 50  0000 C CNN
+F 2 "" H 4550 6900 0   0001 C CNN
+F 3 "" H 4550 6900 50  0001 C CNN
+	1    4550 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 6750 0    50   ~ 10
+L
+Wire Wire Line
+	4650 6900 4700 6900
+Wire Wire Line
+	4700 6900 4700 6600
+Wire Notes Line
+	4400 6650 4400 6800
+Wire Notes Line
+	4400 6800 4650 6800
+Wire Notes Line
+	4650 6650 4400 6650
+Wire Notes Line
+	4650 6800 4650 6650
+Wire Wire Line
+	4350 6900 4400 6900
+Connection ~ 4350 6900
+Wire Wire Line
+	4350 6900 4350 7600
+Connection ~ 4700 6600
+Wire Wire Line
+	4700 6600 5300 6600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4F1DB3
+P 4550 7600
+AR Path="/6A4F1DB3" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4F1DB3" Ref="S17"  Part="1" 
+AR Path="/5EFD2360/6A4F1DB3" Ref="S?"  Part="1" 
+F 0 "S?" H 4250 7650 50  0000 C CNN
+F 1 "18h" H 4250 7550 50  0000 C CNN
+F 2 "" H 4550 7600 0   0001 C CNN
+F 3 "" H 4550 7600 50  0001 C CNN
+	1    4550 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 7500 0    50   ~ 10
+SYMB\nSHIFT
+Wire Wire Line
+	4650 7600 4700 7600
+Wire Wire Line
+	4700 7600 4700 7300
+Wire Notes Line
+	4400 7350 4400 7500
+Wire Notes Line
+	4400 7500 4650 7500
+Wire Notes Line
+	4650 7350 4400 7350
+Wire Notes Line
+	4650 7500 4650 7350
+Wire Wire Line
+	4350 7600 4400 7600
+Connection ~ 4700 7300
+Wire Wire Line
+	4700 7300 5300 7300
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A4FD2F0
+P 5150 2700
+AR Path="/6A4FD2F0" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A4FD2F0" Ref="S18"  Part="1" 
+AR Path="/5EFD2360/6A4FD2F0" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 2750 50  0000 C CNN
+F 1 "17h" H 4850 2650 50  0000 C CNN
+F 2 "" H 5150 2700 0   0001 C CNN
+F 3 "" H 5150 2700 50  0001 C CNN
+	1    5150 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 2550 0    50   ~ 10
+X
+Wire Wire Line
+	5250 2700 5300 2700
+Wire Wire Line
+	5300 2700 5300 2400
+Wire Notes Line
+	5000 2450 5000 2600
+Wire Notes Line
+	5000 2600 5250 2600
+Wire Notes Line
+	5250 2450 5000 2450
+Wire Notes Line
+	5250 2600 5250 2450
+Wire Wire Line
+	5000 2700 4950 2700
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 2400 5900 2400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A50253A
+P 5150 3400
+AR Path="/6A50253A" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A50253A" Ref="S19"  Part="1" 
+AR Path="/5EFD2360/6A50253A" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 3450 50  0000 C CNN
+F 1 "16h" H 4850 3350 50  0000 C CNN
+F 2 "" H 5150 3400 0   0001 C CNN
+F 3 "" H 5150 3400 50  0001 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 3250 0    50   ~ 10
+D
+Wire Wire Line
+	5250 3400 5300 3400
+Wire Wire Line
+	5300 3400 5300 3100
+Wire Notes Line
+	5000 3150 5000 3300
+Wire Notes Line
+	5000 3300 5250 3300
+Wire Notes Line
+	5250 3150 5000 3150
+Wire Notes Line
+	5250 3300 5250 3150
+Wire Wire Line
+	5000 3400 4950 3400
+Connection ~ 5300 3100
+Wire Wire Line
+	5300 3100 5900 3100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A5074F5
+P 5150 4100
+AR Path="/6A5074F5" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A5074F5" Ref="S20"  Part="1" 
+AR Path="/5EFD2360/6A5074F5" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 4150 50  0000 C CNN
+F 1 "15h" H 4850 4050 50  0000 C CNN
+F 2 "" H 5150 4100 0   0001 C CNN
+F 3 "" H 5150 4100 50  0001 C CNN
+	1    5150 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 3950 0    50   ~ 10
+E
+Wire Wire Line
+	5250 4100 5300 4100
+Wire Wire Line
+	5300 4100 5300 3800
+Wire Notes Line
+	5000 3850 5000 4000
+Wire Notes Line
+	5000 4000 5250 4000
+Wire Notes Line
+	5250 3850 5000 3850
+Wire Notes Line
+	5250 4000 5250 3850
+Wire Wire Line
+	5000 4100 4950 4100
+Connection ~ 5300 3800
+Wire Wire Line
+	5300 3800 5900 3800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A50EE85
+P 5150 4800
+AR Path="/6A50EE85" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A50EE85" Ref="S21"  Part="1" 
+AR Path="/5EFD2360/6A50EE85" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 4850 50  0000 C CNN
+F 1 "14h" H 4850 4750 50  0000 C CNN
+F 2 "" H 5150 4800 0   0001 C CNN
+F 3 "" H 5150 4800 50  0001 C CNN
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 4650 0    50   ~ 10
+3
+Wire Wire Line
+	5250 4800 5300 4800
+Wire Wire Line
+	5300 4800 5300 4500
+Wire Notes Line
+	5000 4550 5000 4700
+Wire Notes Line
+	5000 4700 5250 4700
+Wire Notes Line
+	5250 4550 5000 4550
+Wire Notes Line
+	5250 4700 5250 4550
+Wire Wire Line
+	5000 4800 4950 4800
+Connection ~ 5300 4500
+Wire Wire Line
+	5300 4500 5900 4500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A51493A
+P 5150 5500
+AR Path="/6A51493A" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A51493A" Ref="S22"  Part="1" 
+AR Path="/5EFD2360/6A51493A" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 5550 50  0000 C CNN
+F 1 "13h" H 4850 5450 50  0000 C CNN
+F 2 "" H 5150 5500 0   0001 C CNN
+F 3 "" H 5150 5500 50  0001 C CNN
+	1    5150 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 5350 0    50   ~ 10
+8
+Wire Wire Line
+	5250 5500 5300 5500
+Wire Wire Line
+	5300 5500 5300 5200
+Wire Notes Line
+	5000 5250 5000 5400
+Wire Notes Line
+	5000 5400 5250 5400
+Wire Notes Line
+	5250 5250 5000 5250
+Wire Notes Line
+	5250 5400 5250 5250
+Wire Wire Line
+	5000 5500 4950 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A51D3A9
+P 5150 6200
+AR Path="/6A51D3A9" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A51D3A9" Ref="S24"  Part="1" 
+AR Path="/5EFD2360/6A51D3A9" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 6250 50  0000 C CNN
+F 1 "12h" H 4850 6150 50  0000 C CNN
+F 2 "" H 5150 6200 0   0001 C CNN
+F 3 "" H 5150 6200 50  0001 C CNN
+	1    5150 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 6050 0    50   ~ 10
+I
+Wire Wire Line
+	5250 6200 5300 6200
+Wire Wire Line
+	5300 6200 5300 5900
+Wire Notes Line
+	5000 5950 5000 6100
+Wire Notes Line
+	5000 6100 5250 6100
+Wire Notes Line
+	5250 5950 5000 5950
+Wire Notes Line
+	5250 6100 5250 5950
+Wire Wire Line
+	5000 6200 4950 6200
+Connection ~ 5300 5900
+Wire Wire Line
+	5300 5900 5900 5900
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A5240B8
+P 5150 6900
+AR Path="/6A5240B8" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A5240B8" Ref="S25"  Part="1" 
+AR Path="/5EFD2360/6A5240B8" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 6950 50  0000 C CNN
+F 1 "11h" H 4850 6850 50  0000 C CNN
+F 2 "" H 5150 6900 0   0001 C CNN
+F 3 "" H 5150 6900 50  0001 C CNN
+	1    5150 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 6750 0    50   ~ 10
+K
+Wire Wire Line
+	5250 6900 5300 6900
+Wire Wire Line
+	5300 6900 5300 6600
+Wire Notes Line
+	5000 6650 5000 6800
+Wire Notes Line
+	5000 6800 5250 6800
+Wire Notes Line
+	5250 6650 5000 6650
+Wire Notes Line
+	5250 6800 5250 6650
+Wire Wire Line
+	5000 6900 4950 6900
+Connection ~ 5300 6600
+Wire Wire Line
+	5300 6600 5900 6600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A52A65E
+P 5150 7600
+AR Path="/6A52A65E" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A52A65E" Ref="S26"  Part="1" 
+AR Path="/5EFD2360/6A52A65E" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 7650 50  0000 C CNN
+F 1 "10h" H 4850 7550 50  0000 C CNN
+F 2 "" H 5150 7600 0   0001 C CNN
+F 3 "" H 5150 7600 50  0001 C CNN
+	1    5150 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 7450 0    50   ~ 10
+M
+Wire Wire Line
+	5250 7600 5300 7600
+Wire Wire Line
+	5300 7600 5300 7300
+Wire Notes Line
+	5000 7350 5000 7500
+Wire Notes Line
+	5000 7500 5250 7500
+Wire Notes Line
+	5250 7350 5000 7350
+Wire Notes Line
+	5250 7500 5250 7350
+Wire Wire Line
+	5000 7600 4950 7600
+Connection ~ 5300 7300
+Wire Wire Line
+	5300 7300 5900 7300
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6A53D082
+P 5150 5800
+AR Path="/6A53D082" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6A53D082" Ref="S23"  Part="1" 
+AR Path="/5EFD2360/6A53D082" Ref="S?"  Part="1" 
+F 0 "S?" H 4850 5850 50  0000 C CNN
+F 1 "13h" H 4850 5750 50  0000 C CNN
+F 2 "" H 5150 5800 0   0001 C CNN
+F 3 "" H 5150 5800 50  0001 C CNN
+	1    5150 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 5075 5675 0    79   ~ 16
+→
+Wire Wire Line
+	5250 5800 5300 5800
+Wire Wire Line
+	5300 5800 5300 5500
+Wire Notes Line
+	5000 5550 5000 5700
+Wire Notes Line
+	5000 5700 5250 5700
+Wire Notes Line
+	5250 5550 5000 5550
+Wire Notes Line
+	5250 5700 5250 5550
+Wire Wire Line
+	5000 5800 4950 5800
+Connection ~ 5300 5500
+Connection ~ 4350 5500
+Wire Wire Line
+	4350 5500 4350 6200
+Wire Wire Line
+	4350 4800 4350 5500
+Wire Wire Line
+	4100 5200 4700 5200
+Connection ~ 4700 5200
+Wire Wire Line
+	4700 5200 5300 5200
+Connection ~ 5300 5200
+Wire Wire Line
+	5300 5200 5900 5200
+Wire Wire Line
+	4950 7600 4950 6900
+Connection ~ 4950 3400
+Wire Wire Line
+	4950 3400 4950 2700
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 4100 4950 3400
+Connection ~ 4950 4800
+Wire Wire Line
+	4950 4800 4950 4100
+Connection ~ 4950 5500
+Wire Wire Line
+	4950 5500 4950 4800
+Connection ~ 4950 5800
+Wire Wire Line
+	4950 5800 4950 5500
+Connection ~ 4950 6200
+Wire Wire Line
+	4950 6200 4950 5800
+Connection ~ 4950 6900
+Wire Wire Line
+	4950 6900 4950 6200
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB0D2DC
+P 5750 2700
+AR Path="/6AB0D2DC" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB0D2DC" Ref="S27"  Part="1" 
+AR Path="/5EFD2360/6AB0D2DC" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 2750 50  0000 C CNN
+F 1 "0Fh" H 5450 2650 50  0000 C CNN
+F 2 "" H 5750 2700 0   0001 C CNN
+F 3 "" H 5750 2700 50  0001 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 2550 0    50   ~ 10
+C
+Wire Wire Line
+	5850 2700 5900 2700
+Wire Wire Line
+	5900 2700 5900 2400
+Wire Notes Line
+	5600 2450 5600 2600
+Wire Notes Line
+	5600 2600 5850 2600
+Wire Notes Line
+	5850 2450 5600 2450
+Wire Notes Line
+	5850 2600 5850 2450
+Wire Wire Line
+	5600 2700 5550 2700
+Connection ~ 5900 2400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB1B346
+P 5750 3400
+AR Path="/6AB1B346" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB1B346" Ref="S28"  Part="1" 
+AR Path="/5EFD2360/6AB1B346" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 3450 50  0000 C CNN
+F 1 "0Eh" H 5450 3350 50  0000 C CNN
+F 2 "" H 5750 3400 0   0001 C CNN
+F 3 "" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 3250 0    50   ~ 10
+F
+Wire Wire Line
+	5850 3400 5900 3400
+Wire Wire Line
+	5900 3400 5900 3100
+Wire Notes Line
+	5600 3150 5600 3300
+Wire Notes Line
+	5600 3300 5850 3300
+Wire Notes Line
+	5850 3150 5600 3150
+Wire Notes Line
+	5850 3300 5850 3150
+Wire Wire Line
+	5600 3400 5550 3400
+Connection ~ 5900 3100
+Wire Wire Line
+	5900 3100 6500 3100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB24A79
+P 5750 4100
+AR Path="/6AB24A79" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB24A79" Ref="S29"  Part="1" 
+AR Path="/5EFD2360/6AB24A79" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 4150 50  0000 C CNN
+F 1 "0Dh" H 5450 4050 50  0000 C CNN
+F 2 "" H 5750 4100 0   0001 C CNN
+F 3 "" H 5750 4100 50  0001 C CNN
+	1    5750 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 3950 0    50   ~ 10
+R
+Wire Wire Line
+	5850 4100 5900 4100
+Wire Wire Line
+	5900 4100 5900 3800
+Wire Notes Line
+	5600 3850 5600 4000
+Wire Notes Line
+	5600 4000 5850 4000
+Wire Notes Line
+	5850 3850 5600 3850
+Wire Notes Line
+	5850 4000 5850 3850
+Wire Wire Line
+	5600 4100 5550 4100
+Connection ~ 5900 3800
+Wire Wire Line
+	5900 3800 6500 3800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB2D31D
+P 5750 4800
+AR Path="/6AB2D31D" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB2D31D" Ref="S30"  Part="1" 
+AR Path="/5EFD2360/6AB2D31D" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 4850 50  0000 C CNN
+F 1 "0Ch" H 5450 4750 50  0000 C CNN
+F 2 "" H 5750 4800 0   0001 C CNN
+F 3 "" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 4650 0    50   ~ 10
+4
+Wire Wire Line
+	5850 4800 5900 4800
+Wire Wire Line
+	5900 4800 5900 4500
+Wire Notes Line
+	5600 4550 5600 4700
+Wire Notes Line
+	5600 4700 5850 4700
+Wire Notes Line
+	5850 4550 5600 4550
+Wire Notes Line
+	5850 4700 5850 4550
+Wire Wire Line
+	5600 4800 5550 4800
+Connection ~ 5900 4500
+Wire Wire Line
+	5900 4500 6500 4500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB36616
+P 5750 5500
+AR Path="/6AB36616" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB36616" Ref="S31"  Part="1" 
+AR Path="/5EFD2360/6AB36616" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 5550 50  0000 C CNN
+F 1 "0Bh" H 5450 5450 50  0000 C CNN
+F 2 "" H 5750 5500 0   0001 C CNN
+F 3 "" H 5750 5500 50  0001 C CNN
+	1    5750 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 5350 0    50   ~ 10
+7
+Wire Wire Line
+	5850 5500 5900 5500
+Wire Wire Line
+	5900 5500 5900 5200
+Wire Notes Line
+	5600 5250 5600 5400
+Wire Notes Line
+	5600 5400 5850 5400
+Wire Notes Line
+	5850 5250 5600 5250
+Wire Notes Line
+	5850 5400 5850 5250
+Wire Wire Line
+	5600 5500 5550 5500
+Connection ~ 5900 5200
+Wire Wire Line
+	5900 5200 6500 5200
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB40966
+P 5750 6200
+AR Path="/6AB40966" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB40966" Ref="S33"  Part="1" 
+AR Path="/5EFD2360/6AB40966" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 6250 50  0000 C CNN
+F 1 "0Ah" H 5450 6150 50  0000 C CNN
+F 2 "" H 5750 6200 0   0001 C CNN
+F 3 "" H 5750 6200 50  0001 C CNN
+	1    5750 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 6050 0    50   ~ 10
+U
+Wire Wire Line
+	5850 6200 5900 6200
+Wire Wire Line
+	5900 6200 5900 5900
+Wire Notes Line
+	5600 5950 5600 6100
+Wire Notes Line
+	5600 6100 5850 6100
+Wire Notes Line
+	5850 5950 5600 5950
+Wire Notes Line
+	5850 6100 5850 5950
+Wire Wire Line
+	5600 6200 5550 6200
+Connection ~ 5900 5900
+Wire Wire Line
+	5900 5900 6500 5900
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB4B7E0
+P 5750 6900
+AR Path="/6AB4B7E0" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB4B7E0" Ref="S34"  Part="1" 
+AR Path="/5EFD2360/6AB4B7E0" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 6950 50  0000 C CNN
+F 1 "09h" H 5450 6850 50  0000 C CNN
+F 2 "" H 5750 6900 0   0001 C CNN
+F 3 "" H 5750 6900 50  0001 C CNN
+	1    5750 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 6750 0    50   ~ 10
+J
+Wire Wire Line
+	5850 6900 5900 6900
+Wire Wire Line
+	5900 6900 5900 6600
+Wire Notes Line
+	5600 6650 5600 6800
+Wire Notes Line
+	5600 6800 5850 6800
+Wire Notes Line
+	5850 6650 5600 6650
+Wire Notes Line
+	5850 6800 5850 6650
+Wire Wire Line
+	5600 6900 5550 6900
+Connection ~ 5900 6600
+Wire Wire Line
+	5900 6600 6500 6600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB5705E
+P 5750 7600
+AR Path="/6AB5705E" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB5705E" Ref="S35"  Part="1" 
+AR Path="/5EFD2360/6AB5705E" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 7650 50  0000 C CNN
+F 1 "08h" H 5450 7550 50  0000 C CNN
+F 2 "" H 5750 7600 0   0001 C CNN
+F 3 "" H 5750 7600 50  0001 C CNN
+	1    5750 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 7450 0    50   ~ 10
+N
+Wire Wire Line
+	5850 7600 5900 7600
+Wire Wire Line
+	5900 7600 5900 7300
+Wire Notes Line
+	5600 7350 5600 7500
+Wire Notes Line
+	5600 7500 5850 7500
+Wire Notes Line
+	5850 7350 5600 7350
+Wire Notes Line
+	5850 7500 5850 7350
+Wire Wire Line
+	5600 7600 5550 7600
+Connection ~ 5900 7300
+Wire Wire Line
+	5900 7300 6500 7300
+Wire Wire Line
+	5550 2700 5550 3400
+Connection ~ 5550 3400
+Wire Wire Line
+	5550 3400 5550 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4100 5550 4800
+Connection ~ 5550 4800
+Wire Wire Line
+	5550 4800 5550 5500
+Connection ~ 5550 5500
+Wire Wire Line
+	5550 5500 5550 5800
+Connection ~ 5550 6200
+Wire Wire Line
+	5550 6200 5550 6900
+Connection ~ 5550 6900
+Wire Wire Line
+	5550 6900 5550 7600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB78ACE
+P 5750 5800
+AR Path="/6AB78ACE" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB78ACE" Ref="S32"  Part="1" 
+AR Path="/5EFD2360/6AB78ACE" Ref="S?"  Part="1" 
+F 0 "S?" H 5450 5850 50  0000 C CNN
+F 1 "0Bh" H 5450 5750 50  0000 C CNN
+F 2 "" H 5750 5800 0   0001 C CNN
+F 3 "" H 5750 5800 50  0001 C CNN
+	1    5750 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 5675 5675 0    79   ~ 16
+↑
+Wire Wire Line
+	5850 5800 5900 5800
+Wire Wire Line
+	5900 5800 5900 5500
+Wire Notes Line
+	5600 5550 5600 5700
+Wire Notes Line
+	5600 5700 5850 5700
+Wire Notes Line
+	5850 5550 5600 5550
+Wire Notes Line
+	5850 5700 5850 5550
+Wire Wire Line
+	5600 5800 5550 5800
+Connection ~ 5550 5800
+Wire Wire Line
+	5550 5800 5550 6200
+Connection ~ 5900 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB88EE8
+P 6350 2700
+AR Path="/6AB88EE8" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB88EE8" Ref="S36"  Part="1" 
+AR Path="/5EFD2360/6AB88EE8" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 2750 50  0000 C CNN
+F 1 "07h" H 6050 2650 50  0000 C CNN
+F 2 "" H 6350 2700 0   0001 C CNN
+F 3 "" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 2550 0    50   ~ 10
+V
+Wire Wire Line
+	6450 2700 6500 2700
+Wire Wire Line
+	6500 2700 6500 2400
+Wire Notes Line
+	6200 2450 6200 2600
+Wire Notes Line
+	6200 2600 6450 2600
+Wire Notes Line
+	6450 2450 6200 2450
+Wire Notes Line
+	6450 2600 6450 2450
+Wire Wire Line
+	6200 2700 6150 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AB97724
+P 6350 3400
+AR Path="/6AB97724" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AB97724" Ref="S37"  Part="1" 
+AR Path="/5EFD2360/6AB97724" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 3450 50  0000 C CNN
+F 1 "06h" H 6050 3350 50  0000 C CNN
+F 2 "" H 6350 3400 0   0001 C CNN
+F 3 "" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 3250 0    50   ~ 10
+G
+Wire Wire Line
+	6450 3400 6500 3400
+Wire Wire Line
+	6500 3400 6500 3100
+Wire Notes Line
+	6200 3150 6200 3300
+Wire Notes Line
+	6200 3300 6450 3300
+Wire Notes Line
+	6450 3150 6200 3150
+Wire Notes Line
+	6450 3300 6450 3150
+Wire Wire Line
+	6200 3400 6150 3400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ABA4550
+P 6350 4100
+AR Path="/6ABA4550" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ABA4550" Ref="S38"  Part="1" 
+AR Path="/5EFD2360/6ABA4550" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 4150 50  0000 C CNN
+F 1 "05h" H 6050 4050 50  0000 C CNN
+F 2 "" H 6350 4100 0   0001 C CNN
+F 3 "" H 6350 4100 50  0001 C CNN
+	1    6350 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 3950 0    50   ~ 10
+T
+Wire Wire Line
+	6450 4100 6500 4100
+Wire Wire Line
+	6500 4100 6500 3800
+Wire Notes Line
+	6200 3850 6200 4000
+Wire Notes Line
+	6200 4000 6450 4000
+Wire Notes Line
+	6450 3850 6200 3850
+Wire Notes Line
+	6450 4000 6450 3850
+Wire Wire Line
+	6200 4100 6150 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ABB45D7
+P 6350 4800
+AR Path="/6ABB45D7" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ABB45D7" Ref="S39"  Part="1" 
+AR Path="/5EFD2360/6ABB45D7" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 4850 50  0000 C CNN
+F 1 "04h" H 6050 4750 50  0000 C CNN
+F 2 "" H 6350 4800 0   0001 C CNN
+F 3 "" H 6350 4800 50  0001 C CNN
+	1    6350 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 4650 0    50   ~ 10
+5
+Wire Wire Line
+	6450 4800 6500 4800
+Wire Wire Line
+	6500 4800 6500 4500
+Wire Notes Line
+	6200 4550 6200 4700
+Wire Notes Line
+	6200 4700 6450 4700
+Wire Notes Line
+	6450 4550 6200 4550
+Wire Notes Line
+	6450 4700 6450 4550
+Wire Wire Line
+	6200 4800 6150 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ABC1AE3
+P 6350 5500
+AR Path="/6ABC1AE3" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ABC1AE3" Ref="S41"  Part="1" 
+AR Path="/5EFD2360/6ABC1AE3" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 5550 50  0000 C CNN
+F 1 "03h" H 6050 5450 50  0000 C CNN
+F 2 "" H 6350 5500 0   0001 C CNN
+F 3 "" H 6350 5500 50  0001 C CNN
+	1    6350 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 5350 0    50   ~ 10
+6
+Wire Wire Line
+	6450 5500 6500 5500
+Wire Wire Line
+	6500 5500 6500 5200
+Wire Notes Line
+	6200 5250 6200 5400
+Wire Notes Line
+	6200 5400 6450 5400
+Wire Notes Line
+	6450 5250 6200 5250
+Wire Notes Line
+	6450 5400 6450 5250
+Wire Wire Line
+	6200 5500 6150 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ABD5D17
+P 6350 5100
+AR Path="/6ABD5D17" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ABD5D17" Ref="S40"  Part="1" 
+AR Path="/5EFD2360/6ABD5D17" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 5150 50  0000 C CNN
+F 1 "04h" H 6050 5050 50  0000 C CNN
+F 2 "" H 6350 5100 0   0001 C CNN
+F 3 "" H 6350 5100 50  0001 C CNN
+	1    6350 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 6275 4975 0    79   ~ 16
+←
+Wire Wire Line
+	6450 5100 6500 5100
+Wire Wire Line
+	6500 5100 6500 4800
+Wire Notes Line
+	6200 4850 6200 5000
+Wire Notes Line
+	6200 5000 6450 5000
+Wire Notes Line
+	6450 4850 6200 4850
+Wire Notes Line
+	6450 5000 6450 4850
+Wire Wire Line
+	6200 5100 6150 5100
+Connection ~ 6500 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ABE704F
+P 6350 5800
+AR Path="/6ABE704F" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ABE704F" Ref="S42"  Part="1" 
+AR Path="/5EFD2360/6ABE704F" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 5850 50  0000 C CNN
+F 1 "03h" H 6050 5750 50  0000 C CNN
+F 2 "" H 6350 5800 0   0001 C CNN
+F 3 "" H 6350 5800 50  0001 C CNN
+	1    6350 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 6275 5675 0    79   ~ 16
+↓
+Wire Wire Line
+	6450 5800 6500 5800
+Wire Wire Line
+	6500 5800 6500 5500
+Wire Notes Line
+	6200 5550 6200 5700
+Wire Notes Line
+	6200 5700 6450 5700
+Wire Notes Line
+	6450 5550 6200 5550
+Wire Notes Line
+	6450 5700 6450 5550
+Wire Wire Line
+	6200 5800 6150 5800
+Connection ~ 6500 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ABFA817
+P 6350 6200
+AR Path="/6ABFA817" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ABFA817" Ref="S43"  Part="1" 
+AR Path="/5EFD2360/6ABFA817" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 6250 50  0000 C CNN
+F 1 "02h" H 6050 6150 50  0000 C CNN
+F 2 "" H 6350 6200 0   0001 C CNN
+F 3 "" H 6350 6200 50  0001 C CNN
+	1    6350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6200 6500 6200
+Wire Wire Line
+	6500 6200 6500 5900
+Wire Notes Line
+	6200 5950 6200 6100
+Wire Notes Line
+	6200 6100 6450 6100
+Wire Notes Line
+	6450 5950 6200 5950
+Wire Notes Line
+	6450 6100 6450 5950
+Wire Wire Line
+	6200 6200 6150 6200
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AC0B21A
+P 6350 6900
+AR Path="/6AC0B21A" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AC0B21A" Ref="S44"  Part="1" 
+AR Path="/5EFD2360/6AC0B21A" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 6950 50  0000 C CNN
+F 1 "01h" H 6050 6850 50  0000 C CNN
+F 2 "" H 6350 6900 0   0001 C CNN
+F 3 "" H 6350 6900 50  0001 C CNN
+	1    6350 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6900 6500 6900
+Wire Wire Line
+	6500 6900 6500 6600
+Wire Notes Line
+	6200 6650 6200 6800
+Wire Notes Line
+	6200 6800 6450 6800
+Wire Notes Line
+	6450 6650 6200 6650
+Wire Notes Line
+	6450 6800 6450 6650
+Wire Wire Line
+	6200 6900 6150 6900
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AC1D0CB
+P 6350 7600
+AR Path="/6AC1D0CB" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AC1D0CB" Ref="S45"  Part="1" 
+AR Path="/5EFD2360/6AC1D0CB" Ref="S?"  Part="1" 
+F 0 "S?" H 6050 7650 50  0000 C CNN
+F 1 "00h" H 6050 7550 50  0000 C CNN
+F 2 "" H 6350 7600 0   0001 C CNN
+F 3 "" H 6350 7600 50  0001 C CNN
+	1    6350 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 7600 6500 7600
+Wire Wire Line
+	6500 7600 6500 7300
+Wire Notes Line
+	6200 7350 6200 7500
+Wire Notes Line
+	6200 7500 6450 7500
+Wire Notes Line
+	6450 7350 6200 7350
+Wire Notes Line
+	6450 7500 6450 7350
+Wire Wire Line
+	6200 7600 6150 7600
+Wire Wire Line
+	5900 2400 6500 2400
+Wire Wire Line
+	6150 2700 6150 3400
+Connection ~ 6150 3400
+Wire Wire Line
+	6150 3400 6150 4100
+Connection ~ 6150 4100
+Wire Wire Line
+	6150 4100 6150 4800
+Connection ~ 6150 4800
+Wire Wire Line
+	6150 4800 6150 5100
+Connection ~ 6150 5100
+Wire Wire Line
+	6150 5100 6150 5500
+Connection ~ 6150 5500
+Wire Wire Line
+	6150 5500 6150 5800
+Connection ~ 6150 5800
+Wire Wire Line
+	6150 5800 6150 6200
+Connection ~ 6150 6200
+Wire Wire Line
+	6150 6200 6150 6900
+Connection ~ 6150 6900
+Wire Wire Line
+	6150 6900 6150 7600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AC652FF
+P 7200 2700
+AR Path="/6AC652FF" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AC652FF" Ref="S46"  Part="1" 
+AR Path="/5EFD2360/6AC652FF" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 2750 50  0000 C CNN
+F 1 "57h" H 6900 2650 50  0000 C CNN
+F 2 "" H 7200 2700 0   0001 C CNN
+F 3 "" H 7200 2700 50  0001 C CNN
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 2550 0    50   ~ 10
+RUS
+Wire Wire Line
+	7300 2700 7350 2700
+Wire Wire Line
+	7350 2700 7350 2400
+Wire Notes Line
+	7050 2450 7050 2600
+Wire Notes Line
+	7050 2600 7300 2600
+Wire Notes Line
+	7300 2450 7050 2450
+Wire Notes Line
+	7300 2600 7300 2450
+Wire Wire Line
+	7050 2700 7000 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AC8CF90
+P 7800 2700
+AR Path="/6AC8CF90" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AC8CF90" Ref="S53"  Part="1" 
+AR Path="/5EFD2360/6AC8CF90" Ref="S?"  Part="1" 
+F 0 "S?" H 7500 2750 50  0000 C CNN
+F 1 "4Fh" H 7500 2650 50  0000 C CNN
+F 2 "" H 7800 2700 0   0001 C CNN
+F 3 "" H 7800 2700 50  0001 C CNN
+	1    7800 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 2550 0    50   ~ 10
+LAT
+Wire Wire Line
+	7900 2700 7950 2700
+Wire Wire Line
+	7950 2700 7950 2400
+Wire Notes Line
+	7650 2450 7650 2600
+Wire Notes Line
+	7650 2600 7900 2600
+Wire Notes Line
+	7900 2450 7650 2450
+Wire Notes Line
+	7900 2600 7900 2450
+Wire Wire Line
+	7650 2700 7600 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AC9F129
+P 7200 3400
+AR Path="/6AC9F129" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AC9F129" Ref="S47"  Part="1" 
+AR Path="/5EFD2360/6AC9F129" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 3450 50  0000 C CNN
+F 1 "56h" H 6900 3350 50  0000 C CNN
+F 2 "" H 7200 3400 0   0001 C CNN
+F 3 "" H 7200 3400 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 3300 0    50   ~ 10
+CAPS\nLOCK
+Wire Wire Line
+	7300 3400 7350 3400
+Wire Wire Line
+	7350 3400 7350 3100
+Wire Notes Line
+	7050 3150 7050 3300
+Wire Notes Line
+	7050 3300 7300 3300
+Wire Notes Line
+	7300 3150 7050 3150
+Wire Notes Line
+	7300 3300 7300 3150
+Wire Wire Line
+	7050 3400 7000 3400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ACB1B1F
+P 7800 3400
+AR Path="/6ACB1B1F" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ACB1B1F" Ref="S54"  Part="1" 
+AR Path="/5EFD2360/6ACB1B1F" Ref="S?"  Part="1" 
+F 0 "S?" H 7500 3450 50  0000 C CNN
+F 1 "4Eh" H 7500 3350 50  0000 C CNN
+F 2 "" H 7800 3400 0   0001 C CNN
+F 3 "" H 7800 3400 50  0001 C CNN
+	1    7800 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 3250 0    50   ~ 10
+F2
+Wire Wire Line
+	7900 3400 7950 3400
+Wire Wire Line
+	7950 3400 7950 3100
+Wire Notes Line
+	7650 3150 7650 3300
+Wire Notes Line
+	7650 3300 7900 3300
+Wire Notes Line
+	7900 3150 7650 3150
+Wire Notes Line
+	7900 3300 7900 3150
+Wire Wire Line
+	7650 3400 7600 3400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ACCAEDC
+P 7200 4100
+AR Path="/6ACCAEDC" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ACCAEDC" Ref="S48"  Part="1" 
+AR Path="/5EFD2360/6ACCAEDC" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 4150 50  0000 C CNN
+F 1 "55h" H 6900 4050 50  0000 C CNN
+F 2 "" H 7200 4100 0   0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 3950 0    50   ~ 10
+TAB
+Wire Wire Line
+	7300 4100 7350 4100
+Wire Wire Line
+	7350 4100 7350 3800
+Wire Notes Line
+	7050 3850 7050 4000
+Wire Notes Line
+	7050 4000 7300 4000
+Wire Notes Line
+	7300 3850 7050 3850
+Wire Notes Line
+	7300 4000 7300 3850
+Wire Wire Line
+	7050 4100 7000 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ACCAEEE
+P 7800 4100
+AR Path="/6ACCAEEE" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ACCAEEE" Ref="S55"  Part="1" 
+AR Path="/5EFD2360/6ACCAEEE" Ref="S?"  Part="1" 
+F 0 "S?" H 7500 4150 50  0000 C CNN
+F 1 "4Dh" H 7500 4050 50  0000 C CNN
+F 2 "" H 7800 4100 0   0001 C CNN
+F 3 "" H 7800 4100 50  0001 C CNN
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 3950 0    50   ~ 10
+F4
+Wire Wire Line
+	7900 4100 7950 4100
+Wire Wire Line
+	7950 4100 7950 3800
+Wire Notes Line
+	7650 3850 7650 4000
+Wire Notes Line
+	7650 4000 7900 4000
+Wire Notes Line
+	7900 3850 7650 3850
+Wire Notes Line
+	7900 4000 7900 3850
+Wire Wire Line
+	7650 4100 7600 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ACCAF00
+P 7200 4800
+AR Path="/6ACCAF00" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ACCAF00" Ref="S49"  Part="1" 
+AR Path="/5EFD2360/6ACCAF00" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 4850 50  0000 C CNN
+F 1 "54h" H 6900 4750 50  0000 C CNN
+F 2 "" H 7200 4800 0   0001 C CNN
+F 3 "" H 7200 4800 50  0001 C CNN
+	1    7200 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 7130 4680 0    79   ~ 16
+E
+Wire Wire Line
+	7300 4800 7350 4800
+Wire Wire Line
+	7350 4800 7350 4500
+Wire Notes Line
+	7050 4550 7050 4700
+Wire Notes Line
+	7050 4700 7300 4700
+Wire Notes Line
+	7300 4550 7050 4550
+Wire Notes Line
+	7300 4700 7300 4550
+Wire Wire Line
+	7050 4800 7000 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ACCAF12
+P 7800 4800
+AR Path="/6ACCAF12" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ACCAF12" Ref="S56"  Part="1" 
+AR Path="/5EFD2360/6ACCAF12" Ref="S?"  Part="1" 
+F 0 "S?" H 7500 4850 50  0000 C CNN
+F 1 "4Ch" H 7500 4750 50  0000 C CNN
+F 2 "" H 7800 4800 0   0001 C CNN
+F 3 "" H 7800 4800 50  0001 C CNN
+	1    7800 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 4650 0    50   ~ 10
+F5
+Wire Wire Line
+	7900 4800 7950 4800
+Wire Wire Line
+	7950 4800 7950 4500
+Wire Notes Line
+	7650 4550 7650 4700
+Wire Notes Line
+	7650 4700 7900 4700
+Wire Notes Line
+	7900 4550 7650 4550
+Wire Notes Line
+	7900 4700 7900 4550
+Wire Wire Line
+	7650 4800 7600 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ACE8C38
+P 7200 5500
+AR Path="/6ACE8C38" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ACE8C38" Ref="S50"  Part="1" 
+AR Path="/5EFD2360/6ACE8C38" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 5550 50  0000 C CNN
+F 1 "53h" H 6900 5450 50  0000 C CNN
+F 2 "" H 7200 5500 0   0001 C CNN
+F 3 "" H 7200 5500 50  0001 C CNN
+	1    7200 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 5350 0    59   ~ 12
+_ ^
+Wire Wire Line
+	7300 5500 7350 5500
+Wire Wire Line
+	7350 5500 7350 5200
+Wire Notes Line
+	7050 5250 7050 5400
+Wire Notes Line
+	7050 5400 7300 5400
+Wire Notes Line
+	7300 5250 7050 5250
+Wire Notes Line
+	7300 5400 7300 5250
+Wire Wire Line
+	7050 5500 7000 5500
+Text Notes 6300 6050 0    50   ~ 10
+Y
+Text Notes 6300 6750 0    50   ~ 10
+H
+Text Notes 6300 7450 0    50   ~ 10
+B
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ADA0C5D
+P 7200 6200
+AR Path="/6ADA0C5D" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ADA0C5D" Ref="S51"  Part="1" 
+AR Path="/5EFD2360/6ADA0C5D" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 6250 50  0000 C CNN
+F 1 "52h" H 6900 6150 50  0000 C CNN
+F 2 "" H 7200 6200 0   0001 C CNN
+F 3 "" H 7200 6200 50  0001 C CNN
+	1    7200 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 6050 0    59   ~ 12
+; :
+Wire Wire Line
+	7300 6200 7350 6200
+Wire Wire Line
+	7350 6200 7350 5900
+Wire Notes Line
+	7050 5950 7050 6100
+Wire Notes Line
+	7050 6100 7300 6100
+Wire Notes Line
+	7300 5950 7050 5950
+Wire Notes Line
+	7300 6100 7300 5950
+Wire Wire Line
+	7050 6200 7000 6200
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ADBBFE2
+P 7200 6900
+AR Path="/6ADBBFE2" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ADBBFE2" Ref="S52"  Part="1" 
+AR Path="/5EFD2360/6ADBBFE2" Ref="S?"  Part="1" 
+F 0 "S?" H 6900 6950 50  0000 C CNN
+F 1 "51h" H 6900 6850 50  0000 C CNN
+F 2 "" H 7200 6900 0   0001 C CNN
+F 3 "" H 7200 6900 50  0001 C CNN
+	1    7200 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 6750 0    59   ~ 12
+, <
+Wire Wire Line
+	7300 6900 7350 6900
+Wire Wire Line
+	7350 6900 7350 6600
+Wire Notes Line
+	7050 6650 7050 6800
+Wire Notes Line
+	7050 6800 7300 6800
+Wire Notes Line
+	7300 6650 7050 6650
+Wire Notes Line
+	7300 6800 7300 6650
+Wire Wire Line
+	7050 6900 7000 6900
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ADD76D2
+P 7800 6200
+AR Path="/6ADD76D2" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ADD76D2" Ref="S57"  Part="1" 
+AR Path="/5EFD2360/6ADD76D2" Ref="S?"  Part="1" 
+F 0 "S?" H 7500 6250 50  0000 C CNN
+F 1 "4Ah" H 7500 6150 50  0000 C CNN
+F 2 "" H 7800 6200 0   0001 C CNN
+F 3 "" H 7800 6200 50  0001 C CNN
+	1    7800 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 6050 0    50   ~ 10
+F3
+Wire Wire Line
+	7900 6200 7950 6200
+Wire Wire Line
+	7950 6200 7950 5900
+Wire Notes Line
+	7650 5950 7650 6100
+Wire Notes Line
+	7650 6100 7900 6100
+Wire Notes Line
+	7900 5950 7650 5950
+Wire Notes Line
+	7900 6100 7900 5950
+Wire Wire Line
+	7650 6200 7600 6200
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6ADF738F
+P 7800 7600
+AR Path="/6ADF738F" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6ADF738F" Ref="S58"  Part="1" 
+AR Path="/5EFD2360/6ADF738F" Ref="S?"  Part="1" 
+F 0 "S?" H 7500 7650 50  0000 C CNN
+F 1 "48h" H 7500 7550 50  0000 C CNN
+F 2 "" H 7800 7600 0   0001 C CNN
+F 3 "" H 7800 7600 50  0001 C CNN
+	1    7800 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 7450 0    50   ~ 10
+F1
+Wire Wire Line
+	7900 7600 7950 7600
+Wire Wire Line
+	7950 7600 7950 7300
+Wire Notes Line
+	7650 7350 7650 7500
+Wire Notes Line
+	7650 7500 7900 7500
+Wire Notes Line
+	7900 7350 7650 7350
+Wire Notes Line
+	7900 7500 7900 7350
+Wire Wire Line
+	7650 7600 7600 7600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AE30AD8
+P 8400 3400
+AR Path="/6AE30AD8" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AE30AD8" Ref="S59"  Part="1" 
+AR Path="/5EFD2360/6AE30AD8" Ref="S?"  Part="1" 
+F 0 "S?" H 8100 3450 50  0000 C CNN
+F 1 "46h" H 8100 3350 50  0000 C CNN
+F 2 "" H 8400 3400 0   0001 C CNN
+F 3 "" H 8400 3400 50  0001 C CNN
+	1    8400 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 8300 3250 0    50   ~ 10
+~
+Wire Wire Line
+	8500 3400 8550 3400
+Wire Wire Line
+	8550 3400 8550 3100
+Wire Notes Line
+	8250 3150 8250 3300
+Wire Notes Line
+	8250 3300 8500 3300
+Wire Notes Line
+	8500 3150 8250 3150
+Wire Notes Line
+	8500 3300 8500 3150
+Wire Wire Line
+	8250 3400 8200 3400
+Text Notes 8350 3250 0    79   ~ 16
+~~
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AE5964E
+P 8400 4800
+AR Path="/6AE5964E" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AE5964E" Ref="S60"  Part="1" 
+AR Path="/5EFD2360/6AE5964E" Ref="S?"  Part="1" 
+F 0 "S?" H 8100 4850 50  0000 C CNN
+F 1 "44h" H 8100 4750 50  0000 C CNN
+F 2 "" H 8400 4800 0   0001 C CNN
+F 3 "" H 8400 4800 50  0001 C CNN
+	1    8400 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 8300 4650 0    50   ~ 10
+BS
+Wire Wire Line
+	8500 4800 8550 4800
+Wire Wire Line
+	8550 4800 8550 4500
+Wire Notes Line
+	8250 4550 8250 4700
+Wire Notes Line
+	8250 4700 8500 4700
+Wire Notes Line
+	8500 4550 8250 4550
+Wire Notes Line
+	8500 4700 8500 4550
+Wire Wire Line
+	8250 4800 8200 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AE77180
+P 8400 5500
+AR Path="/6AE77180" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AE77180" Ref="S61"  Part="1" 
+AR Path="/5EFD2360/6AE77180" Ref="S?"  Part="1" 
+F 0 "S?" H 8100 5550 50  0000 C CNN
+F 1 "43h" H 8100 5450 50  0000 C CNN
+F 2 "" H 8400 5500 0   0001 C CNN
+F 3 "" H 8400 5500 50  0001 C CNN
+	1    8400 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 8350 5400 0    50   ~ 10
++\n=
+Wire Wire Line
+	8500 5500 8550 5500
+Wire Wire Line
+	8550 5500 8550 5200
+Wire Notes Line
+	8250 5250 8250 5400
+Wire Notes Line
+	8250 5400 8500 5400
+Wire Notes Line
+	8500 5250 8250 5250
+Wire Notes Line
+	8500 5400 8500 5250
+Wire Wire Line
+	8250 5500 8200 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AE97602
+P 8400 6200
+AR Path="/6AE97602" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AE97602" Ref="S62"  Part="1" 
+AR Path="/5EFD2360/6AE97602" Ref="S?"  Part="1" 
+F 0 "S?" H 8100 6250 50  0000 C CNN
+F 1 "42h" H 8100 6150 50  0000 C CNN
+F 2 "" H 8400 6200 0   0001 C CNN
+F 3 "" H 8400 6200 50  0001 C CNN
+	1    8400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 6200 8550 6200
+Wire Wire Line
+	8550 6200 8550 5900
+Wire Notes Line
+	8250 5950 8250 6100
+Wire Notes Line
+	8250 6100 8500 6100
+Wire Notes Line
+	8500 5950 8250 5950
+Wire Notes Line
+	8500 6100 8500 5950
+Wire Wire Line
+	8250 6200 8200 6200
+Text Notes 8300 6050 0    50   ~ 10
+\ |
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AED36B2
+P 9000 2700
+AR Path="/6AED36B2" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AED36B2" Ref="S63"  Part="1" 
+AR Path="/5EFD2360/6AED36B2" Ref="S?"  Part="1" 
+F 0 "S?" H 8700 2750 50  0000 C CNN
+F 1 "3Fh" H 8700 2650 50  0000 C CNN
+F 2 "" H 9000 2700 0   0001 C CNN
+F 3 "" H 9000 2700 50  0001 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 8930 2580 0    79   ~ 16
+1
+Wire Wire Line
+	9100 2700 9150 2700
+Wire Wire Line
+	9150 2700 9150 2400
+Wire Notes Line
+	8850 2450 8850 2600
+Wire Notes Line
+	8850 2600 9100 2600
+Wire Notes Line
+	9100 2450 8850 2450
+Wire Notes Line
+	9100 2600 9100 2450
+Wire Wire Line
+	8850 2700 8800 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AEF84D6
+P 9600 2700
+AR Path="/6AEF84D6" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AEF84D6" Ref="S69"  Part="1" 
+AR Path="/5EFD2360/6AEF84D6" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 2750 50  0000 C CNN
+F 1 "37h" H 9300 2650 50  0000 C CNN
+F 2 "" H 9600 2700 0   0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 9530 2580 0    79   ~ 16
+2
+Wire Wire Line
+	9700 2700 9750 2700
+Wire Wire Line
+	9750 2700 9750 2400
+Wire Notes Line
+	9450 2450 9450 2600
+Wire Notes Line
+	9450 2600 9700 2600
+Wire Notes Line
+	9700 2450 9450 2450
+Wire Notes Line
+	9700 2600 9700 2450
+Wire Wire Line
+	9450 2700 9400 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AF325D4
+P 9600 3400
+AR Path="/6AF325D4" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AF325D4" Ref="S70"  Part="1" 
+AR Path="/5EFD2360/6AF325D4" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 3450 50  0000 C CNN
+F 1 "36h" H 9300 3350 50  0000 C CNN
+F 2 "" H 9600 3400 0   0001 C CNN
+F 3 "" H 9600 3400 50  0001 C CNN
+	1    9600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3400 9750 3400
+Wire Wire Line
+	9750 3400 9750 3100
+Wire Notes Line
+	9450 3150 9450 3300
+Wire Notes Line
+	9450 3300 9700 3300
+Wire Notes Line
+	9700 3150 9450 3150
+Wire Notes Line
+	9700 3300 9700 3150
+Wire Wire Line
+	9450 3400 9400 3400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AF51AE8
+P 9000 3400
+AR Path="/6AF51AE8" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AF51AE8" Ref="S64"  Part="1" 
+AR Path="/5EFD2360/6AF51AE8" Ref="S?"  Part="1" 
+F 0 "S?" H 8700 3450 50  0000 C CNN
+F 1 "3Eh" H 8700 3350 50  0000 C CNN
+F 2 "" H 9000 3400 0   0001 C CNN
+F 3 "" H 9000 3400 50  0001 C CNN
+	1    9000 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 8930 3280 0    79   ~ 16
+4
+Wire Wire Line
+	9100 3400 9150 3400
+Wire Wire Line
+	9150 3400 9150 3100
+Wire Notes Line
+	8850 3150 8850 3300
+Wire Notes Line
+	8850 3300 9100 3300
+Wire Notes Line
+	9100 3150 8850 3150
+Wire Notes Line
+	9100 3300 9100 3150
+Wire Wire Line
+	8850 3400 8800 3400
+Text Notes 9500 3250 0    59   ~ 12
+' "
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AF71A6C
+P 9600 4100
+AR Path="/6AF71A6C" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AF71A6C" Ref="S71"  Part="1" 
+AR Path="/5EFD2360/6AF71A6C" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 4150 50  0000 C CNN
+F 1 "35h" H 9300 4050 50  0000 C CNN
+F 2 "" H 9600 4100 0   0001 C CNN
+F 3 "" H 9600 4100 50  0001 C CNN
+	1    9600 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 9530 3980 0    79   ~ 16
+5
+Wire Wire Line
+	9700 4100 9750 4100
+Wire Wire Line
+	9750 4100 9750 3800
+Wire Notes Line
+	9450 3850 9450 4000
+Wire Notes Line
+	9450 4000 9700 4000
+Wire Notes Line
+	9700 3850 9450 3850
+Wire Notes Line
+	9700 4000 9700 3850
+Wire Wire Line
+	9450 4100 9400 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AF908A4
+P 9000 4100
+AR Path="/6AF908A4" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AF908A4" Ref="S65"  Part="1" 
+AR Path="/5EFD2360/6AF908A4" Ref="S?"  Part="1" 
+F 0 "S?" H 8700 4150 50  0000 C CNN
+F 1 "3Dh" H 8700 4050 50  0000 C CNN
+F 2 "" H 9000 4100 0   0001 C CNN
+F 3 "" H 9000 4100 50  0001 C CNN
+	1    9000 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 8930 3980 0    79   ~ 16
+7
+Wire Wire Line
+	9100 4100 9150 4100
+Wire Wire Line
+	9150 4100 9150 3800
+Wire Notes Line
+	8850 3850 8850 4000
+Wire Notes Line
+	8850 4000 9100 4000
+Wire Notes Line
+	9100 3850 8850 3850
+Wire Notes Line
+	9100 4000 9100 3850
+Wire Wire Line
+	8850 4100 8800 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AFB087E
+P 10200 4100
+AR Path="/6AFB087E" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AFB087E" Ref="S79"  Part="1" 
+AR Path="/5EFD2360/6AFB087E" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 4150 50  0000 C CNN
+F 1 "2Dh" H 9900 4050 50  0000 C CNN
+F 2 "" H 10200 4100 0   0001 C CNN
+F 3 "" H 10200 4100 50  0001 C CNN
+	1    10200 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 10130 3980 0    79   ~ 16
+9
+Wire Wire Line
+	10300 4100 10350 4100
+Wire Wire Line
+	10350 4100 10350 3800
+Wire Notes Line
+	10050 3850 10050 4000
+Wire Notes Line
+	10050 4000 10300 4000
+Wire Notes Line
+	10300 3850 10050 3850
+Wire Notes Line
+	10300 4000 10300 3850
+Wire Wire Line
+	10050 4100 10000 4100
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AFD0DDA
+P 10200 3400
+AR Path="/6AFD0DDA" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AFD0DDA" Ref="S78"  Part="1" 
+AR Path="/5EFD2360/6AFD0DDA" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 3450 50  0000 C CNN
+F 1 "2Eh" H 9900 3350 50  0000 C CNN
+F 2 "" H 10200 3400 0   0001 C CNN
+F 3 "" H 10200 3400 50  0001 C CNN
+	1    10200 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 10130 3280 0    79   ~ 16
+6
+Wire Wire Line
+	10300 3400 10350 3400
+Wire Wire Line
+	10350 3400 10350 3100
+Wire Notes Line
+	10050 3150 10050 3300
+Wire Notes Line
+	10050 3300 10300 3300
+Wire Notes Line
+	10300 3150 10050 3150
+Wire Notes Line
+	10300 3300 10300 3150
+Wire Wire Line
+	10050 3400 10000 3400
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6AFF3C78
+P 10200 2700
+AR Path="/6AFF3C78" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6AFF3C78" Ref="S77"  Part="1" 
+AR Path="/5EFD2360/6AFF3C78" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 2750 50  0000 C CNN
+F 1 "2Fh" H 9900 2650 50  0000 C CNN
+F 2 "" H 10200 2700 0   0001 C CNN
+F 3 "" H 10200 2700 50  0001 C CNN
+	1    10200 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 10100 2550 0    59   ~ 12
+. >
+Wire Wire Line
+	10300 2700 10350 2700
+Wire Wire Line
+	10350 2700 10350 2400
+Wire Notes Line
+	10050 2450 10050 2600
+Wire Notes Line
+	10050 2600 10300 2600
+Wire Notes Line
+	10300 2450 10050 2450
+Wire Notes Line
+	10300 2600 10300 2450
+Wire Wire Line
+	10050 2700 10000 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B01B28B
+P 9600 4800
+AR Path="/6B01B28B" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B01B28B" Ref="S72"  Part="1" 
+AR Path="/5EFD2360/6B01B28B" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 4850 50  0000 C CNN
+F 1 "34h" H 9300 4750 50  0000 C CNN
+F 2 "" H 9600 4800 0   0001 C CNN
+F 3 "" H 9600 4800 50  0001 C CNN
+	1    9600 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 9530 4680 0    79   ~ 16
+8
+Wire Wire Line
+	9700 4800 9750 4800
+Wire Wire Line
+	9750 4800 9750 4500
+Wire Notes Line
+	9450 4550 9450 4700
+Wire Notes Line
+	9450 4700 9700 4700
+Wire Notes Line
+	9700 4550 9450 4550
+Wire Notes Line
+	9700 4700 9700 4550
+Wire Wire Line
+	9450 4800 9400 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B03EE70
+P 9000 4800
+AR Path="/6B03EE70" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B03EE70" Ref="S66"  Part="1" 
+AR Path="/5EFD2360/6B03EE70" Ref="S?"  Part="1" 
+F 0 "S?" H 8700 4850 50  0000 C CNN
+F 1 "3Ch" H 8700 4750 50  0000 C CNN
+F 2 "" H 9000 4800 0   0001 C CNN
+F 3 "" H 9000 4800 50  0001 C CNN
+	1    9000 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 8950 4650 0    59   ~ 12
+/
+Wire Wire Line
+	9100 4800 9150 4800
+Wire Wire Line
+	9150 4800 9150 4500
+Wire Notes Line
+	8850 4550 8850 4700
+Wire Notes Line
+	8850 4700 9100 4700
+Wire Notes Line
+	9100 4550 8850 4550
+Wire Notes Line
+	9100 4700 9100 4550
+Wire Wire Line
+	8850 4800 8800 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B061FF7
+P 10200 4800
+AR Path="/6B061FF7" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B061FF7" Ref="S80"  Part="1" 
+AR Path="/5EFD2360/6B061FF7" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 4850 50  0000 C CNN
+F 1 "2Ch" H 9900 4750 50  0000 C CNN
+F 2 "" H 10200 4800 0   0001 C CNN
+F 3 "" H 10200 4800 50  0001 C CNN
+	1    10200 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 10130 4680 0    79   ~ 16
+-
+Wire Wire Line
+	10300 4800 10350 4800
+Wire Wire Line
+	10350 4800 10350 4500
+Wire Notes Line
+	10050 4550 10050 4700
+Wire Notes Line
+	10050 4700 10300 4700
+Wire Notes Line
+	10300 4550 10050 4550
+Wire Notes Line
+	10300 4700 10300 4550
+Wire Wire Line
+	10050 4800 10000 4800
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B08A729
+P 9000 5500
+AR Path="/6B08A729" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B08A729" Ref="S67"  Part="1" 
+AR Path="/5EFD2360/6B08A729" Ref="S?"  Part="1" 
+F 0 "S?" H 8700 5550 50  0000 C CNN
+F 1 "3Bh" H 8700 5450 50  0000 C CNN
+F 2 "" H 9000 5500 0   0001 C CNN
+F 3 "" H 9000 5500 50  0001 C CNN
+	1    9000 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 5350 0    50   ~ 10
+DEL
+Wire Wire Line
+	9100 5500 9150 5500
+Wire Wire Line
+	9150 5500 9150 5200
+Wire Notes Line
+	8850 5250 8850 5400
+Wire Notes Line
+	8850 5400 9100 5400
+Wire Notes Line
+	9100 5250 8850 5250
+Wire Notes Line
+	9100 5400 9100 5250
+Wire Wire Line
+	8850 5500 8800 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B0B78B2
+P 9600 5500
+AR Path="/6B0B78B2" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B0B78B2" Ref="S73"  Part="1" 
+AR Path="/5EFD2360/6B0B78B2" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 5550 50  0000 C CNN
+F 1 "33h" H 9300 5450 50  0000 C CNN
+F 2 "" H 9600 5500 0   0001 C CNN
+F 3 "" H 9600 5500 50  0001 C CNN
+	1    9600 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 5350 0    50   ~ 10
+F8
+Wire Wire Line
+	9700 5500 9750 5500
+Wire Wire Line
+	9750 5500 9750 5200
+Wire Notes Line
+	9450 5250 9450 5400
+Wire Notes Line
+	9450 5400 9700 5400
+Wire Notes Line
+	9700 5250 9450 5250
+Wire Notes Line
+	9700 5400 9700 5250
+Wire Wire Line
+	9450 5500 9400 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B0E280A
+P 10200 5500
+AR Path="/6B0E280A" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B0E280A" Ref="S81"  Part="1" 
+AR Path="/5EFD2360/6B0E280A" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 5550 50  0000 C CNN
+F 1 "2Bh" H 9900 5450 50  0000 C CNN
+F 2 "" H 10200 5500 0   0001 C CNN
+F 3 "" H 10200 5500 50  0001 C CNN
+	1    10200 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 10130 5380 0    79   ~ 16
+G
+Wire Wire Line
+	10300 5500 10350 5500
+Wire Wire Line
+	10350 5500 10350 5200
+Wire Notes Line
+	10050 5250 10050 5400
+Wire Notes Line
+	10050 5400 10300 5400
+Wire Notes Line
+	10300 5250 10050 5250
+Wire Notes Line
+	10300 5400 10300 5250
+Wire Wire Line
+	10050 5500 10000 5500
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B10B056
+P 9600 6200
+AR Path="/6B10B056" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B10B056" Ref="S74"  Part="1" 
+AR Path="/5EFD2360/6B10B056" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 6250 50  0000 C CNN
+F 1 "32h" H 9300 6150 50  0000 C CNN
+F 2 "" H 9600 6200 0   0001 C CNN
+F 3 "" H 9600 6200 50  0001 C CNN
+	1    9600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 6200 9750 6200
+Wire Wire Line
+	9750 6200 9750 5900
+Wire Notes Line
+	9450 5950 9450 6100
+Wire Notes Line
+	9450 6100 9700 6100
+Wire Notes Line
+	9700 5950 9450 5950
+Wire Notes Line
+	9700 6100 9700 5950
+Wire Wire Line
+	9450 6200 9400 6200
+Text Notes 9500 6050 0    50   ~ 10
+] }
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B1353A4
+P 10200 6200
+AR Path="/6B1353A4" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B1353A4" Ref="S82"  Part="1" 
+AR Path="/5EFD2360/6B1353A4" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 6250 50  0000 C CNN
+F 1 "2Ah" H 9900 6150 50  0000 C CNN
+F 2 "" H 10200 6200 0   0001 C CNN
+F 3 "" H 10200 6200 50  0001 C CNN
+	1    10200 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6200 10350 6200
+Wire Wire Line
+	10350 6200 10350 5900
+Wire Notes Line
+	10050 5950 10050 6100
+Wire Notes Line
+	10050 6100 10300 6100
+Wire Notes Line
+	10300 5950 10050 5950
+Wire Notes Line
+	10300 6100 10300 5950
+Wire Wire Line
+	10050 6200 10000 6200
+Text Notes 10100 6050 0    50   ~ 10
+[ {
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B15FFB3
+P 9600 6900
+AR Path="/6B15FFB3" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B15FFB3" Ref="S75"  Part="1" 
+AR Path="/5EFD2360/6B15FFB3" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 6950 50  0000 C CNN
+F 1 "31h" H 9300 6850 50  0000 C CNN
+F 2 "" H 9600 6900 0   0001 C CNN
+F 3 "" H 9600 6900 50  0001 C CNN
+	1    9600 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 6900 9750 6900
+Wire Wire Line
+	9750 6900 9750 6600
+Wire Notes Line
+	9450 6650 9450 6800
+Wire Notes Line
+	9450 6800 9700 6800
+Wire Notes Line
+	9700 6650 9450 6650
+Wire Notes Line
+	9700 6800 9700 6650
+Wire Wire Line
+	9450 6900 9400 6900
+Text Notes 9500 6750 0    50   ~ 10
+/ ?
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B18E647
+P 10200 6900
+AR Path="/6B18E647" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B18E647" Ref="S83"  Part="1" 
+AR Path="/5EFD2360/6B18E647" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 6950 50  0000 C CNN
+F 1 "29h" H 9900 6850 50  0000 C CNN
+F 2 "" H 10200 6900 0   0001 C CNN
+F 3 "" H 10200 6900 50  0001 C CNN
+	1    10200 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 10130 6780 0    79   ~ 16
+3
+Wire Wire Line
+	10300 6900 10350 6900
+Wire Wire Line
+	10350 6900 10350 6600
+Wire Notes Line
+	10050 6650 10050 6800
+Wire Notes Line
+	10050 6800 10300 6800
+Wire Notes Line
+	10300 6650 10050 6650
+Wire Notes Line
+	10300 6800 10300 6650
+Wire Wire Line
+	10050 6900 10000 6900
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B1B8C44
+P 9000 7600
+AR Path="/6B1B8C44" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B1B8C44" Ref="S68"  Part="1" 
+AR Path="/5EFD2360/6B1B8C44" Ref="S?"  Part="1" 
+F 0 "S?" H 8700 7650 50  0000 C CNN
+F 1 "38h" H 8700 7550 50  0000 C CNN
+F 2 "" H 9000 7600 0   0001 C CNN
+F 3 "" H 9000 7600 50  0001 C CNN
+	1    9000 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 8930 7480 0    79   ~ 16
+0
+Wire Wire Line
+	9100 7600 9150 7600
+Wire Wire Line
+	9150 7600 9150 7300
+Wire Notes Line
+	8850 7350 8850 7500
+Wire Notes Line
+	8850 7500 9100 7500
+Wire Notes Line
+	9100 7350 8850 7350
+Wire Notes Line
+	9100 7500 9100 7350
+Wire Wire Line
+	8850 7600 8800 7600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B1E763A
+P 9600 7600
+AR Path="/6B1E763A" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B1E763A" Ref="S76"  Part="1" 
+AR Path="/5EFD2360/6B1E763A" Ref="S?"  Part="1" 
+F 0 "S?" H 9300 7650 50  0000 C CNN
+F 1 "30h" H 9300 7550 50  0000 C CNN
+F 2 "" H 9600 7600 0   0001 C CNN
+F 3 "" H 9600 7600 50  0001 C CNN
+	1    9600 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 9530 7480 0    79   ~ 16
+.
+Wire Wire Line
+	9700 7600 9750 7600
+Wire Wire Line
+	9750 7600 9750 7300
+Wire Notes Line
+	9450 7350 9450 7500
+Wire Notes Line
+	9450 7500 9700 7500
+Wire Notes Line
+	9700 7350 9450 7350
+Wire Notes Line
+	9700 7500 9700 7350
+Wire Wire Line
+	9450 7600 9400 7600
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6B240283
+P 10200 7600
+AR Path="/6B240283" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6B240283" Ref="S84"  Part="1" 
+AR Path="/5EFD2360/6B240283" Ref="S?"  Part="1" 
+F 0 "S?" H 9900 7650 50  0000 C CNN
+F 1 "28h" H 9900 7550 50  0000 C CNN
+F 2 "" H 10200 7600 0   0001 C CNN
+F 3 "" H 10200 7600 50  0001 C CNN
+	1    10200 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 10130 7480 0    79   ~ 16
++
+Wire Wire Line
+	10300 7600 10350 7600
+Wire Wire Line
+	10350 7600 10350 7300
+Wire Notes Line
+	10050 7350 10050 7500
+Wire Notes Line
+	10050 7500 10300 7500
+Wire Notes Line
+	10300 7350 10050 7350
+Wire Notes Line
+	10300 7500 10300 7350
+Wire Wire Line
+	10050 7600 10000 7600
+Wire Wire Line
+	6500 2400 7350 2400
+Connection ~ 6500 2400
+Connection ~ 7350 2400
+Wire Wire Line
+	7350 2400 7950 2400
+Connection ~ 7950 2400
+Wire Wire Line
+	7950 2400 9150 2400
+Connection ~ 9150 2400
+Wire Wire Line
+	9150 2400 9750 2400
+Connection ~ 9750 2400
+Wire Wire Line
+	9750 2400 10350 2400
+Wire Wire Line
+	6500 3100 7350 3100
+Connection ~ 6500 3100
+Connection ~ 7350 3100
+Wire Wire Line
+	7350 3100 7950 3100
+Connection ~ 7950 3100
+Wire Wire Line
+	7950 3100 8550 3100
+Connection ~ 8550 3100
+Wire Wire Line
+	8550 3100 9150 3100
+Connection ~ 9150 3100
+Wire Wire Line
+	9150 3100 9750 3100
+Connection ~ 9750 3100
+Wire Wire Line
+	9750 3100 10350 3100
+Wire Wire Line
+	6500 3800 7350 3800
+Connection ~ 6500 3800
+Connection ~ 7350 3800
+Wire Wire Line
+	7350 3800 7950 3800
+Connection ~ 7950 3800
+Wire Wire Line
+	7950 3800 9150 3800
+Connection ~ 9150 3800
+Wire Wire Line
+	9150 3800 9750 3800
+Connection ~ 9750 3800
+Wire Wire Line
+	9750 3800 10350 3800
+Wire Wire Line
+	6500 4500 7350 4500
+Connection ~ 6500 4500
+Connection ~ 7350 4500
+Wire Wire Line
+	7350 4500 7950 4500
+Connection ~ 7950 4500
+Wire Wire Line
+	7950 4500 8550 4500
+Connection ~ 8550 4500
+Wire Wire Line
+	8550 4500 9150 4500
+Connection ~ 9150 4500
+Wire Wire Line
+	9150 4500 9750 4500
+Connection ~ 9750 4500
+Wire Wire Line
+	9750 4500 10350 4500
+Wire Wire Line
+	6500 5200 7350 5200
+Connection ~ 6500 5200
+Connection ~ 7350 5200
+Wire Wire Line
+	7350 5200 8550 5200
+Connection ~ 8550 5200
+Wire Wire Line
+	8550 5200 9150 5200
+Connection ~ 9150 5200
+Wire Wire Line
+	9150 5200 9750 5200
+Connection ~ 9750 5200
+Wire Wire Line
+	9750 5200 10350 5200
+Wire Wire Line
+	6500 5900 7350 5900
+Connection ~ 6500 5900
+Connection ~ 7350 5900
+Wire Wire Line
+	7350 5900 7950 5900
+Connection ~ 7950 5900
+Wire Wire Line
+	7950 5900 8550 5900
+Connection ~ 8550 5900
+Wire Wire Line
+	8550 5900 9750 5900
+Connection ~ 9750 5900
+Wire Wire Line
+	9750 5900 10350 5900
+Wire Wire Line
+	6500 6600 7350 6600
+Connection ~ 6500 6600
+Connection ~ 7350 6600
+Wire Wire Line
+	7350 6600 9750 6600
+Connection ~ 9750 6600
+Wire Wire Line
+	9750 6600 10350 6600
+Wire Wire Line
+	6500 7300 7950 7300
+Connection ~ 6500 7300
+Connection ~ 7950 7300
+Wire Wire Line
+	7950 7300 9150 7300
+Connection ~ 9150 7300
+Wire Wire Line
+	9150 7300 9750 7300
+Connection ~ 9750 7300
+Wire Wire Line
+	9750 7300 10350 7300
+Wire Wire Line
+	7000 2700 7000 3400
+Connection ~ 7000 3400
+Wire Wire Line
+	7000 3400 7000 4100
+Connection ~ 7000 4100
+Wire Wire Line
+	7000 4100 7000 4800
+Connection ~ 7000 4800
+Wire Wire Line
+	7000 4800 7000 5500
+Connection ~ 7000 5500
+Wire Wire Line
+	7000 5500 7000 6200
+Connection ~ 7000 6200
+Wire Wire Line
+	7000 6200 7000 6900
+Connection ~ 7000 6900
+Wire Wire Line
+	10000 7600 10000 7700
+Wire Wire Line
+	10000 7700 11250 7700
+Wire Wire Line
+	9400 7600 9400 7800
+Wire Wire Line
+	9400 7800 11250 7800
+Wire Wire Line
+	8800 7600 8800 7900
+Wire Wire Line
+	8800 7900 11250 7900
+Wire Wire Line
+	7600 7600 7600 6200
+Connection ~ 7600 7600
+Connection ~ 7600 3400
+Wire Wire Line
+	7600 3400 7600 2700
+Connection ~ 7600 4100
+Wire Wire Line
+	7600 4100 7600 3400
+Connection ~ 7600 4800
+Wire Wire Line
+	7600 4800 7600 4100
+Connection ~ 7600 6200
+Wire Wire Line
+	7600 6200 7600 4800
+Wire Wire Line
+	8200 3400 8200 4800
+Connection ~ 8200 4800
+Wire Wire Line
+	8200 4800 8200 5500
+Connection ~ 8200 5500
+Wire Wire Line
+	8200 5500 8200 6200
+Connection ~ 8200 6200
+Wire Wire Line
+	8800 7600 8800 5500
+Connection ~ 8800 7600
+Connection ~ 8800 3400
+Wire Wire Line
+	8800 3400 8800 2700
+Connection ~ 8800 4100
+Wire Wire Line
+	8800 4100 8800 3400
+Connection ~ 8800 4800
+Wire Wire Line
+	8800 4800 8800 4100
+Connection ~ 8800 5500
+Wire Wire Line
+	8800 5500 8800 4800
+Wire Wire Line
+	9400 2700 9400 3400
+Connection ~ 9400 7600
+Connection ~ 9400 3400
+Wire Wire Line
+	9400 3400 9400 4100
+Connection ~ 9400 4100
+Wire Wire Line
+	9400 4100 9400 4800
+Connection ~ 9400 4800
+Wire Wire Line
+	9400 4800 9400 5500
+Connection ~ 9400 5500
+Wire Wire Line
+	9400 5500 9400 6200
+Connection ~ 9400 6200
+Wire Wire Line
+	9400 6200 9400 6900
+Connection ~ 9400 6900
+Wire Wire Line
+	9400 6900 9400 7600
+Wire Wire Line
+	10000 7600 10000 6900
+Connection ~ 10000 7600
+Connection ~ 10000 3400
+Wire Wire Line
+	10000 3400 10000 2700
+Connection ~ 10000 4100
+Wire Wire Line
+	10000 4100 10000 3400
+Connection ~ 10000 4800
+Wire Wire Line
+	10000 4800 10000 4100
+Connection ~ 10000 5500
+Wire Wire Line
+	10000 5500 10000 4800
+Connection ~ 10000 6200
+Wire Wire Line
+	10000 6200 10000 5500
+Connection ~ 10000 6900
+Wire Wire Line
+	10000 6900 10000 6200
+Wire Wire Line
+	8200 8000 11250 8000
+Wire Wire Line
+	8200 6200 8200 8000
+Wire Wire Line
+	7600 8100 11250 8100
+Wire Wire Line
+	7600 7600 7600 8100
+Wire Wire Line
+	7000 8200 11250 8200
+Wire Wire Line
+	7000 6900 7000 8200
+Wire Wire Line
+	6150 7600 6150 8300
+Wire Wire Line
+	6150 8300 11250 8300
+Connection ~ 6150 7600
+Wire Wire Line
+	11250 8400 5550 8400
+Wire Wire Line
+	5550 8400 5550 7600
+Connection ~ 5550 7600
+Wire Wire Line
+	11250 8500 4950 8500
+Wire Wire Line
+	4950 8500 4950 7600
+Connection ~ 4950 7600
+Wire Wire Line
+	11250 8600 4350 8600
+Wire Wire Line
+	4350 8600 4350 7600
+Connection ~ 4350 7600
+Wire Wire Line
+	11250 8700 3750 8700
+Wire Wire Line
+	3750 8700 3750 7600
+Connection ~ 3750 7600
+$Comp
+L gost_common:GND #PWR?
+U 1 1 6BD468E8
+P 11250 7600
+F 0 "#PWR?" H 11250 7630 50  0001 C BNN
+F 1 "GND" H 11250 7470 50  0001 C TNN
+F 2 "" H 11250 7600 0   0001 C CNN
+F 3 "" H 11250 7600 50  0001 C CNN
+	1    11250 7600
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	10700 7300 10800 7400
+Wire Wire Line
+	10350 7300 10700 7300
+Connection ~ 10350 7300
+Entry Wire Line
+	10700 6600 10800 6700
+Wire Wire Line
+	10350 6600 10700 6600
+Connection ~ 10350 6600
+Entry Wire Line
+	10700 5900 10800 6000
+Wire Wire Line
+	10350 5900 10700 5900
+Connection ~ 10350 5900
+Entry Wire Line
+	10700 5200 10800 5300
+Wire Wire Line
+	10350 5200 10700 5200
+Connection ~ 10350 5200
+Entry Wire Line
+	10700 4500 10800 4600
+Wire Wire Line
+	10350 4500 10700 4500
+Connection ~ 10350 4500
+Entry Wire Line
+	10700 3800 10800 3900
+Wire Wire Line
+	10350 3800 10700 3800
+Connection ~ 10350 3800
+Entry Wire Line
+	10700 3100 10800 3200
+Wire Wire Line
+	10350 3100 10700 3100
+Connection ~ 10350 3100
+Entry Wire Line
+	10700 2400 10800 2500
+Wire Wire Line
+	10350 2400 10700 2400
+Connection ~ 10350 2400
+Text Label 10700 2400 2    50   ~ 0
+A8
+Text Label 10700 3100 2    50   ~ 0
+A9
+Text Label 10700 3800 2    50   ~ 0
+A10
+Text Label 10700 4500 2    50   ~ 0
+A11
+Text Label 10700 5200 2    50   ~ 0
+A12
+Text Label 10700 5900 2    50   ~ 0
+A13
+Text Label 10700 6600 2    50   ~ 0
+A14
+Text Label 10700 7300 2    50   ~ 0
+A15
+$Comp
+L gost_common:CONN_12 X?
+U 1 1 6C20F94E
+P 11900 8650
+AR Path="/6C20F94E" Ref="X?"  Part="1" 
+AR Path="/6A1845AF/6C20F94E" Ref="X102"  Part="1" 
+AR Path="/5EFD2360/6C20F94E" Ref="X?"  Part="1" 
+F 0 "X?" H 11900 7400 50  0000 C CNN
+F 1 "KEYBOARD 2" H 11900 7500 50  0000 C CNN
+F 2 "" H 11925 8925 50  0001 C CNN
+F 3 "" H 11925 8925 50  0001 C CNN
+F 4 "K_D0*" H 11600 8700 50  0000 L CNN "NET1"
+F 5 "K_D0" H 11600 8600 50  0000 L CNN "NET2"
+F 6 "K_D1*" H 11600 8500 50  0000 L CNN "NET3"
+F 7 "K_D1" H 11600 8400 50  0000 L CNN "NET4"
+F 8 "K_D2" H 11600 8300 50  0000 L CNN "NET5"
+F 9 "K_D3" H 11600 8200 50  0000 L CNN "NET6"
+F 10 "K_D4" H 11600 8100 50  0000 L CNN "NET7"
+F 11 "K_D2*" H 11600 8000 50  0000 L CNN "NET8"
+F 12 "K_D3*" H 11600 7900 50  0000 L CNN "NET9"
+F 13 "K_D4*" H 11600 7800 50  0000 L CNN "NET10"
+F 14 "K_D5*" H 11600 7700 50  0000 L CNN "NET11"
+F 15 "GND" H 11600 7600 50  0000 L CNN "NET12"
+	1    11900 8650
+	-1   0    0    1   
+$EndComp
+$Comp
+L gost_common:CONN_12 X?
+U 1 1 6C2B5274
+P 11900 5650
+AR Path="/6C2B5274" Ref="X?"  Part="1" 
+AR Path="/6A1845AF/6C2B5274" Ref="X101"  Part="1" 
+AR Path="/5EFD2360/6C2B5274" Ref="X?"  Part="1" 
+F 0 "X?" H 11900 5900 50  0000 C CNN
+F 1 "KEYBOARD 1" H 11900 5800 50  0000 C CNN
+F 2 "" H 11925 5925 50  0001 C CNN
+F 3 "" H 11925 5925 50  0001 C CNN
+F 4 "A15" H 11600 5700 50  0000 L CNN "NET1"
+F 5 "A9" H 11600 5600 50  0000 L CNN "NET2"
+F 6 "A13" H 11600 5500 50  0000 L CNN "NET3"
+F 7 "A10" H 11600 5400 50  0000 L CNN "NET4"
+F 8 "A11" H 11600 5300 50  0000 L CNN "NET5"
+F 9 "A12" H 11600 5200 50  0000 L CNN "NET6"
+F 10 "A14" H 11600 5100 50  0000 L CNN "NET7"
+F 11 "A8" H 11600 5000 50  0000 L CNN "NET8"
+F 12 "KNMI" H 11600 4900 50  0000 L CNN "NET9"
+F 13 "KINV" H 11600 4800 50  0000 L CNN "NET10"
+F 14 "KSPK" H 11600 4700 50  0000 L CNN "NET11"
+F 15 "~RES~" H 11600 4600 50  0000 L CNN "NET12"
+	1    11900 5650
+	-1   0    0    -1  
+$EndComp
+Text Notes 11300 2550 0    50   ~ 10
+NMI
+Wire Notes Line
+	11250 2450 11250 2600
+Wire Notes Line
+	11250 2600 11500 2600
+Wire Notes Line
+	11500 2450 11250 2450
+Wire Notes Line
+	11500 2600 11500 2450
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6C349B1E
+P 11400 3400
+AR Path="/6C349B1E" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6C349B1E" Ref="S86"  Part="1" 
+AR Path="/5EFD2360/6C349B1E" Ref="S?"  Part="1" 
+F 0 "S?" H 11350 3350 50  0000 C CNN
+F 1 "INV" H 11100 3350 50  0001 C CNN
+F 2 "" H 11400 3400 0   0001 C CNN
+F 3 "" H 11400 3400 50  0001 C CNN
+	1    11400 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 11300 3250 0    50   ~ 10
+INV
+Wire Wire Line
+	11500 3400 11550 3400
+Wire Notes Line
+	11250 3150 11250 3300
+Wire Notes Line
+	11250 3300 11500 3300
+Wire Notes Line
+	11500 3150 11250 3150
+Wire Notes Line
+	11500 3300 11500 3150
+Text Label 10900 2700 0    50   ~ 0
+KNMI
+Entry Wire Line
+	10900 2700 10800 2800
+Wire Wire Line
+	11500 2700 11550 2700
+Wire Wire Line
+	10900 2700 11250 2700
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6C2FB4CD
+P 11400 2700
+AR Path="/6C2FB4CD" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6C2FB4CD" Ref="S85"  Part="1" 
+AR Path="/5EFD2360/6C2FB4CD" Ref="S?"  Part="1" 
+F 0 "S?" H 11350 2650 50  0000 C CNN
+F 1 "NMI" H 11100 2650 50  0001 C CNN
+F 2 "" H 11400 2700 0   0001 C CNN
+F 3 "" H 11400 2700 50  0001 C CNN
+	1    11400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6C5F8590
+P 11400 4100
+AR Path="/6C5F8590" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6C5F8590" Ref="S87"  Part="1" 
+AR Path="/5EFD2360/6C5F8590" Ref="S?"  Part="1" 
+F 0 "S?" H 11350 4050 50  0000 C CNN
+F 1 "SPK" H 11100 4050 50  0001 C CNN
+F 2 "" H 11400 4100 0   0001 C CNN
+F 3 "" H 11400 4100 50  0001 C CNN
+	1    11400 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 11300 3950 0    50   ~ 10
+SPK
+Wire Wire Line
+	11500 4100 11550 4100
+Wire Notes Line
+	11250 3850 11250 4000
+Wire Notes Line
+	11250 4000 11500 4000
+Wire Notes Line
+	11500 3850 11250 3850
+Wire Notes Line
+	11500 4000 11500 3850
+$Comp
+L gost_common:SWITCH S?
+U 1 1 6C63B247
+P 11400 4800
+AR Path="/6C63B247" Ref="S?"  Part="1" 
+AR Path="/6A1845AF/6C63B247" Ref="S88"  Part="1" 
+AR Path="/5EFD2360/6C63B247" Ref="S?"  Part="1" 
+F 0 "S?" H 11350 4750 50  0000 C CNN
+F 1 "RES" H 11100 4750 50  0001 C CNN
+F 2 "" H 11400 4800 0   0001 C CNN
+F 3 "" H 11400 4800 50  0001 C CNN
+	1    11400 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 11300 4650 0    50   ~ 10
+RES
+Wire Wire Line
+	11500 4800 11550 4800
+Wire Notes Line
+	11250 4550 11250 4700
+Wire Notes Line
+	11250 4700 11500 4700
+Wire Notes Line
+	11500 4550 11250 4550
+Wire Notes Line
+	11500 4700 11500 4550
+Wire Wire Line
+	11550 2700 11550 3400
+Connection ~ 11550 3400
+Wire Wire Line
+	11550 3400 11550 4100
+Connection ~ 11550 4100
+Wire Wire Line
+	11550 4100 11550 4800
+Text Label 10900 3400 0    50   ~ 0
+KINV
+Entry Wire Line
+	10900 3400 10800 3500
+Wire Wire Line
+	10900 3400 11250 3400
+Text Label 10900 4100 0    50   ~ 0
+KSPK
+Entry Wire Line
+	10900 4100 10800 4200
+Wire Wire Line
+	10900 4100 11250 4100
+Text Label 10900 4800 0    50   ~ 0
+~RES
+Entry Wire Line
+	10900 4800 10800 4900
+Wire Wire Line
+	10900 4800 11250 4800
+$Comp
+L gost_common:GND #PWR?
+U 1 1 6C8258A3
+P 11550 4800
+F 0 "#PWR?" H 11550 4830 50  0001 C BNN
+F 1 "GND" H 11550 4670 50  0001 C TNN
+F 2 "" H 11550 4800 0   0001 C CNN
+F 3 "" H 11550 4800 50  0001 C CNN
+	1    11550 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 11550 4800
+Text Label 10900 6700 0    50   ~ 0
+~RES
+Entry Wire Line
+	10900 6700 10800 6800
+Wire Wire Line
+	10900 6700 11250 6700
+Text Label 10900 5600 0    50   ~ 0
+A15
+Entry Wire Line
+	10900 5600 10800 5700
+Wire Wire Line
+	10900 5600 11250 5600
+Text Label 10900 5700 0    50   ~ 0
+A9
+Entry Wire Line
+	10900 5700 10800 5800
+Wire Wire Line
+	10900 5700 11250 5700
+Text Label 10900 5800 0    50   ~ 0
+A13
+Entry Wire Line
+	10900 5800 10800 5900
+Wire Wire Line
+	10900 5800 11250 5800
+Text Label 10900 5900 0    50   ~ 0
+A10
+Entry Wire Line
+	10900 5900 10800 6000
+Wire Wire Line
+	10900 5900 11250 5900
+Text Label 10900 6000 0    50   ~ 0
+A11
+Entry Wire Line
+	10900 6000 10800 6100
+Wire Wire Line
+	10900 6000 11250 6000
+Text Label 10900 6100 0    50   ~ 0
+A12
+Entry Wire Line
+	10900 6100 10800 6200
+Wire Wire Line
+	10900 6100 11250 6100
+Text Label 10900 6200 0    50   ~ 0
+A14
+Entry Wire Line
+	10900 6200 10800 6300
+Wire Wire Line
+	10900 6200 11250 6200
+Text Label 10900 6300 0    50   ~ 0
+A8
+Entry Wire Line
+	10900 6300 10800 6400
+Wire Wire Line
+	10900 6300 11250 6300
+Text Label 10900 6400 0    50   ~ 0
+KNMI
+Entry Wire Line
+	10900 6400 10800 6500
+Wire Wire Line
+	10900 6400 11250 6400
+Text Label 10900 6500 0    50   ~ 0
+KINV
+Entry Wire Line
+	10900 6500 10800 6600
+Wire Wire Line
+	10900 6500 11250 6500
+Text Label 10900 6600 0    50   ~ 0
+KSPK
+Entry Wire Line
+	10900 6600 10800 6700
+Wire Wire Line
+	10900 6600 11250 6600
+Text Notes 15300 11300 2    157  Italic 0
+Quorum/Magic Keyboard
+Wire Bus Line
+	10800 2500 10800 7400
+$EndSCHEMATC
