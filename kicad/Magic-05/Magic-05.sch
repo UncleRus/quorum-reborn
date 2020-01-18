@@ -4920,193 +4920,97 @@ Wire Wire Line
 Entry Wire Line
 	22600 7650 22500 7550
 Text Label 22600 7650 0    50   ~ 0
-MA0
+MA4
 Wire Wire Line
 	23250 7750 22600 7750
 Entry Wire Line
 	22600 7750 22500 7650
 Text Label 22600 7750 0    50   ~ 0
-MA1
+MA6
 Wire Wire Line
 	23250 7850 22600 7850
 Entry Wire Line
 	22600 7850 22500 7750
 Text Label 22600 7850 0    50   ~ 0
-MA2
+MA5
 Wire Wire Line
 	23250 7950 22600 7950
 Entry Wire Line
 	22600 7950 22500 7850
 Text Label 22600 7950 0    50   ~ 0
-MA3
+MA1
 Wire Wire Line
 	23250 8050 22600 8050
 Entry Wire Line
 	22600 8050 22500 7950
 Text Label 22600 8050 0    50   ~ 0
-MA4
+MA2
 Wire Wire Line
 	23250 8150 22600 8150
 Entry Wire Line
 	22600 8150 22500 8050
 Text Label 22600 8150 0    50   ~ 0
-MA5
+MA3
 Wire Wire Line
 	23250 8250 22600 8250
 Entry Wire Line
 	22600 8250 22500 8150
 Text Label 22600 8250 0    50   ~ 0
-MA6
+MA0
 Wire Wire Line
 	23250 8350 22600 8350
 Entry Wire Line
 	22600 8350 22500 8250
 Text Label 22600 8350 0    50   ~ 0
 MA7
-Wire Wire Line
-	23250 9450 22600 9450
 Entry Wire Line
 	22600 9450 22500 9350
-Text Label 22600 9450 0    50   ~ 0
-MA0
-Wire Wire Line
-	23250 9550 22600 9550
 Entry Wire Line
 	22600 9550 22500 9450
-Text Label 22600 9550 0    50   ~ 0
-MA1
-Wire Wire Line
-	23250 9650 22600 9650
 Entry Wire Line
 	22600 9650 22500 9550
-Text Label 22600 9650 0    50   ~ 0
-MA2
-Wire Wire Line
-	23250 9750 22600 9750
 Entry Wire Line
 	22600 9750 22500 9650
-Text Label 22600 9750 0    50   ~ 0
-MA3
-Wire Wire Line
-	23250 9850 22600 9850
 Entry Wire Line
 	22600 9850 22500 9750
-Text Label 22600 9850 0    50   ~ 0
-MA4
-Wire Wire Line
-	23250 9950 22600 9950
 Entry Wire Line
 	22600 9950 22500 9850
-Text Label 22600 9950 0    50   ~ 0
-MA5
-Wire Wire Line
-	23250 10050 22600 10050
 Entry Wire Line
 	22600 10050 22500 9950
-Text Label 22600 10050 0    50   ~ 0
-MA6
-Wire Wire Line
-	23250 10150 22600 10150
 Entry Wire Line
 	22600 10150 22500 10050
-Text Label 22600 10150 0    50   ~ 0
-MA7
-Wire Wire Line
-	23250 11250 22600 11250
 Entry Wire Line
 	22600 11250 22500 11150
-Text Label 22600 11250 0    50   ~ 0
-MA0
-Wire Wire Line
-	23250 11350 22600 11350
 Entry Wire Line
 	22600 11350 22500 11250
-Text Label 22600 11350 0    50   ~ 0
-MA1
-Wire Wire Line
-	23250 11450 22600 11450
 Entry Wire Line
 	22600 11450 22500 11350
-Text Label 22600 11450 0    50   ~ 0
-MA2
-Wire Wire Line
-	23250 11550 22600 11550
 Entry Wire Line
 	22600 11550 22500 11450
-Text Label 22600 11550 0    50   ~ 0
-MA3
-Wire Wire Line
-	23250 11650 22600 11650
 Entry Wire Line
 	22600 11650 22500 11550
-Text Label 22600 11650 0    50   ~ 0
-MA4
-Wire Wire Line
-	23250 11750 22600 11750
 Entry Wire Line
 	22600 11750 22500 11650
-Text Label 22600 11750 0    50   ~ 0
-MA5
-Wire Wire Line
-	23250 11850 22600 11850
 Entry Wire Line
 	22600 11850 22500 11750
-Text Label 22600 11850 0    50   ~ 0
-MA6
-Wire Wire Line
-	23250 11950 22600 11950
 Entry Wire Line
 	22600 11950 22500 11850
-Text Label 22600 11950 0    50   ~ 0
-MA7
-Wire Wire Line
-	23250 13050 22600 13050
 Entry Wire Line
 	22600 13050 22500 12950
-Text Label 22600 13050 0    50   ~ 0
-MA0
-Wire Wire Line
-	23250 13150 22600 13150
 Entry Wire Line
 	22600 13150 22500 13050
-Text Label 22600 13150 0    50   ~ 0
-MA1
-Wire Wire Line
-	23250 13250 22600 13250
 Entry Wire Line
 	22600 13250 22500 13150
-Text Label 22600 13250 0    50   ~ 0
-MA2
-Wire Wire Line
-	23250 13350 22600 13350
 Entry Wire Line
 	22600 13350 22500 13250
-Text Label 22600 13350 0    50   ~ 0
-MA3
-Wire Wire Line
-	23250 13450 22600 13450
 Entry Wire Line
 	22600 13450 22500 13350
-Text Label 22600 13450 0    50   ~ 0
-MA4
-Wire Wire Line
-	23250 13550 22600 13550
 Entry Wire Line
 	22600 13550 22500 13450
-Text Label 22600 13550 0    50   ~ 0
-MA5
-Wire Wire Line
-	23250 13650 22600 13650
 Entry Wire Line
 	22600 13650 22500 13550
-Text Label 22600 13650 0    50   ~ 0
-MA6
-Wire Wire Line
-	23250 13750 22600 13750
 Entry Wire Line
 	22600 13750 22500 13650
-Text Label 22600 13750 0    50   ~ 0
-MA7
 Entry Wire Line
 	22850 7550 22950 7450
 Wire Wire Line
@@ -9785,194 +9689,68 @@ F 3 "" H 25900 13800 50  0001 C CNN
 $EndComp
 Entry Wire Line
 	24750 7650 24650 7550
-Text Label 24750 7650 0    50   ~ 0
-MA0
-Wire Wire Line
-	25400 7750 24750 7750
 Entry Wire Line
 	24750 7750 24650 7650
-Text Label 24750 7750 0    50   ~ 0
-MA1
-Wire Wire Line
-	25400 7850 24750 7850
 Entry Wire Line
 	24750 7850 24650 7750
-Text Label 24750 7850 0    50   ~ 0
-MA2
-Wire Wire Line
-	25400 7950 24750 7950
 Entry Wire Line
 	24750 7950 24650 7850
-Text Label 24750 7950 0    50   ~ 0
-MA3
-Wire Wire Line
-	25400 8050 24750 8050
 Entry Wire Line
 	24750 8050 24650 7950
-Text Label 24750 8050 0    50   ~ 0
-MA4
-Wire Wire Line
-	25400 8150 24750 8150
 Entry Wire Line
 	24750 8150 24650 8050
-Text Label 24750 8150 0    50   ~ 0
-MA5
-Wire Wire Line
-	25400 8250 24750 8250
 Entry Wire Line
 	24750 8250 24650 8150
-Text Label 24750 8250 0    50   ~ 0
-MA6
-Wire Wire Line
-	25400 8350 24750 8350
 Entry Wire Line
 	24750 8350 24650 8250
-Text Label 24750 8350 0    50   ~ 0
-MA7
-Wire Wire Line
-	25400 9450 24750 9450
 Entry Wire Line
 	24750 9450 24650 9350
-Text Label 24750 9450 0    50   ~ 0
-MA0
-Wire Wire Line
-	25400 9550 24750 9550
 Entry Wire Line
 	24750 9550 24650 9450
-Text Label 24750 9550 0    50   ~ 0
-MA1
-Wire Wire Line
-	25400 9650 24750 9650
 Entry Wire Line
 	24750 9650 24650 9550
-Text Label 24750 9650 0    50   ~ 0
-MA2
-Wire Wire Line
-	25400 9750 24750 9750
 Entry Wire Line
 	24750 9750 24650 9650
-Text Label 24750 9750 0    50   ~ 0
-MA3
-Wire Wire Line
-	25400 9850 24750 9850
 Entry Wire Line
 	24750 9850 24650 9750
-Text Label 24750 9850 0    50   ~ 0
-MA4
-Wire Wire Line
-	25400 9950 24750 9950
 Entry Wire Line
 	24750 9950 24650 9850
-Text Label 24750 9950 0    50   ~ 0
-MA5
-Wire Wire Line
-	25400 10050 24750 10050
 Entry Wire Line
 	24750 10050 24650 9950
-Text Label 24750 10050 0    50   ~ 0
-MA6
-Wire Wire Line
-	25400 10150 24750 10150
 Entry Wire Line
 	24750 10150 24650 10050
-Text Label 24750 10150 0    50   ~ 0
-MA7
-Wire Wire Line
-	25400 11250 24750 11250
 Entry Wire Line
 	24750 11250 24650 11150
-Text Label 24750 11250 0    50   ~ 0
-MA0
-Wire Wire Line
-	25400 11350 24750 11350
 Entry Wire Line
 	24750 11350 24650 11250
-Text Label 24750 11350 0    50   ~ 0
-MA1
-Wire Wire Line
-	25400 11450 24750 11450
 Entry Wire Line
 	24750 11450 24650 11350
-Text Label 24750 11450 0    50   ~ 0
-MA2
-Wire Wire Line
-	25400 11550 24750 11550
 Entry Wire Line
 	24750 11550 24650 11450
-Text Label 24750 11550 0    50   ~ 0
-MA3
-Wire Wire Line
-	25400 11650 24750 11650
 Entry Wire Line
 	24750 11650 24650 11550
-Text Label 24750 11650 0    50   ~ 0
-MA4
-Wire Wire Line
-	25400 11750 24750 11750
 Entry Wire Line
 	24750 11750 24650 11650
-Text Label 24750 11750 0    50   ~ 0
-MA5
-Wire Wire Line
-	25400 11850 24750 11850
 Entry Wire Line
 	24750 11850 24650 11750
-Text Label 24750 11850 0    50   ~ 0
-MA6
-Wire Wire Line
-	25400 11950 24750 11950
 Entry Wire Line
 	24750 11950 24650 11850
-Text Label 24750 11950 0    50   ~ 0
-MA7
-Wire Wire Line
-	25400 13050 24750 13050
 Entry Wire Line
 	24750 13050 24650 12950
-Text Label 24750 13050 0    50   ~ 0
-MA0
-Wire Wire Line
-	25400 13150 24750 13150
 Entry Wire Line
 	24750 13150 24650 13050
-Text Label 24750 13150 0    50   ~ 0
-MA1
-Wire Wire Line
-	25400 13250 24750 13250
 Entry Wire Line
 	24750 13250 24650 13150
-Text Label 24750 13250 0    50   ~ 0
-MA2
-Wire Wire Line
-	25400 13350 24750 13350
 Entry Wire Line
 	24750 13350 24650 13250
-Text Label 24750 13350 0    50   ~ 0
-MA3
-Wire Wire Line
-	25400 13450 24750 13450
 Entry Wire Line
 	24750 13450 24650 13350
-Text Label 24750 13450 0    50   ~ 0
-MA4
-Wire Wire Line
-	25400 13550 24750 13550
 Entry Wire Line
 	24750 13550 24650 13450
-Text Label 24750 13550 0    50   ~ 0
-MA5
-Wire Wire Line
-	25400 13650 24750 13650
 Entry Wire Line
 	24750 13650 24650 13550
-Text Label 24750 13650 0    50   ~ 0
-MA6
-Wire Wire Line
-	25400 13750 24750 13750
 Entry Wire Line
 	24750 13750 24650 13650
-Text Label 24750 13750 0    50   ~ 0
-MA7
 Entry Wire Line
 	25000 7550 25100 7450
 Wire Wire Line
@@ -10183,8 +9961,6 @@ Text Label 26700 12850 2    50   ~ 0
 MD7
 Wire Wire Line
 	34750 13650 36450 13650
-Wire Wire Line
-	24750 7650 25400 7650
 Text Label 22150 7750 2    50   ~ 0
 V71
 Text Label 22150 7650 2    50   ~ 0
@@ -11562,6 +11338,230 @@ Wire Wire Line
 	20550 19550 20950 19550
 Wire Wire Line
 	20550 19750 20950 19750
+Wire Wire Line
+	23250 9450 22600 9450
+Text Label 22600 9450 0    50   ~ 0
+MA4
+Wire Wire Line
+	23250 9550 22600 9550
+Text Label 22600 9550 0    50   ~ 0
+MA6
+Wire Wire Line
+	23250 9650 22600 9650
+Text Label 22600 9650 0    50   ~ 0
+MA5
+Wire Wire Line
+	23250 9750 22600 9750
+Text Label 22600 9750 0    50   ~ 0
+MA1
+Wire Wire Line
+	23250 9850 22600 9850
+Text Label 22600 9850 0    50   ~ 0
+MA2
+Wire Wire Line
+	23250 9950 22600 9950
+Text Label 22600 9950 0    50   ~ 0
+MA3
+Wire Wire Line
+	23250 10050 22600 10050
+Text Label 22600 10050 0    50   ~ 0
+MA0
+Wire Wire Line
+	23250 10150 22600 10150
+Text Label 22600 10150 0    50   ~ 0
+MA7
+Wire Wire Line
+	23250 11250 22600 11250
+Text Label 22600 11250 0    50   ~ 0
+MA4
+Wire Wire Line
+	23250 11350 22600 11350
+Text Label 22600 11350 0    50   ~ 0
+MA6
+Wire Wire Line
+	23250 11450 22600 11450
+Text Label 22600 11450 0    50   ~ 0
+MA5
+Wire Wire Line
+	23250 11550 22600 11550
+Text Label 22600 11550 0    50   ~ 0
+MA1
+Wire Wire Line
+	23250 11650 22600 11650
+Text Label 22600 11650 0    50   ~ 0
+MA2
+Wire Wire Line
+	23250 11750 22600 11750
+Text Label 22600 11750 0    50   ~ 0
+MA3
+Wire Wire Line
+	23250 11850 22600 11850
+Text Label 22600 11850 0    50   ~ 0
+MA0
+Wire Wire Line
+	23250 11950 22600 11950
+Text Label 22600 11950 0    50   ~ 0
+MA7
+Wire Wire Line
+	23250 13050 22600 13050
+Text Label 22600 13050 0    50   ~ 0
+MA4
+Wire Wire Line
+	23250 13150 22600 13150
+Text Label 22600 13150 0    50   ~ 0
+MA6
+Wire Wire Line
+	23250 13250 22600 13250
+Text Label 22600 13250 0    50   ~ 0
+MA5
+Wire Wire Line
+	23250 13350 22600 13350
+Text Label 22600 13350 0    50   ~ 0
+MA1
+Wire Wire Line
+	23250 13450 22600 13450
+Text Label 22600 13450 0    50   ~ 0
+MA2
+Wire Wire Line
+	23250 13550 22600 13550
+Text Label 22600 13550 0    50   ~ 0
+MA3
+Wire Wire Line
+	23250 13650 22600 13650
+Text Label 22600 13650 0    50   ~ 0
+MA0
+Wire Wire Line
+	23250 13750 22600 13750
+Text Label 22600 13750 0    50   ~ 0
+MA7
+Wire Wire Line
+	25400 7650 24750 7650
+Text Label 24750 7650 0    50   ~ 0
+MA4
+Wire Wire Line
+	25400 7750 24750 7750
+Text Label 24750 7750 0    50   ~ 0
+MA6
+Wire Wire Line
+	25400 7850 24750 7850
+Text Label 24750 7850 0    50   ~ 0
+MA5
+Wire Wire Line
+	25400 7950 24750 7950
+Text Label 24750 7950 0    50   ~ 0
+MA1
+Wire Wire Line
+	25400 8050 24750 8050
+Text Label 24750 8050 0    50   ~ 0
+MA2
+Wire Wire Line
+	25400 8150 24750 8150
+Text Label 24750 8150 0    50   ~ 0
+MA3
+Wire Wire Line
+	25400 8250 24750 8250
+Text Label 24750 8250 0    50   ~ 0
+MA0
+Wire Wire Line
+	25400 8350 24750 8350
+Text Label 24750 8350 0    50   ~ 0
+MA7
+Wire Wire Line
+	25400 9450 24750 9450
+Text Label 24750 9450 0    50   ~ 0
+MA4
+Wire Wire Line
+	25400 9550 24750 9550
+Text Label 24750 9550 0    50   ~ 0
+MA6
+Wire Wire Line
+	25400 9650 24750 9650
+Text Label 24750 9650 0    50   ~ 0
+MA5
+Wire Wire Line
+	25400 9750 24750 9750
+Text Label 24750 9750 0    50   ~ 0
+MA1
+Wire Wire Line
+	25400 9850 24750 9850
+Text Label 24750 9850 0    50   ~ 0
+MA2
+Wire Wire Line
+	25400 9950 24750 9950
+Text Label 24750 9950 0    50   ~ 0
+MA3
+Wire Wire Line
+	25400 10050 24750 10050
+Text Label 24750 10050 0    50   ~ 0
+MA0
+Wire Wire Line
+	25400 10150 24750 10150
+Text Label 24750 10150 0    50   ~ 0
+MA7
+Wire Wire Line
+	25400 11250 24750 11250
+Text Label 24750 11250 0    50   ~ 0
+MA4
+Wire Wire Line
+	25400 11350 24750 11350
+Text Label 24750 11350 0    50   ~ 0
+MA6
+Wire Wire Line
+	25400 11450 24750 11450
+Text Label 24750 11450 0    50   ~ 0
+MA5
+Wire Wire Line
+	25400 11550 24750 11550
+Text Label 24750 11550 0    50   ~ 0
+MA1
+Wire Wire Line
+	25400 11650 24750 11650
+Text Label 24750 11650 0    50   ~ 0
+MA2
+Wire Wire Line
+	25400 11750 24750 11750
+Text Label 24750 11750 0    50   ~ 0
+MA3
+Wire Wire Line
+	25400 11850 24750 11850
+Text Label 24750 11850 0    50   ~ 0
+MA0
+Wire Wire Line
+	25400 11950 24750 11950
+Text Label 24750 11950 0    50   ~ 0
+MA7
+Wire Wire Line
+	25400 13050 24750 13050
+Text Label 24750 13050 0    50   ~ 0
+MA4
+Wire Wire Line
+	25400 13150 24750 13150
+Text Label 24750 13150 0    50   ~ 0
+MA6
+Wire Wire Line
+	25400 13250 24750 13250
+Text Label 24750 13250 0    50   ~ 0
+MA5
+Wire Wire Line
+	25400 13350 24750 13350
+Text Label 24750 13350 0    50   ~ 0
+MA1
+Wire Wire Line
+	25400 13450 24750 13450
+Text Label 24750 13450 0    50   ~ 0
+MA2
+Wire Wire Line
+	25400 13550 24750 13550
+Text Label 24750 13550 0    50   ~ 0
+MA3
+Wire Wire Line
+	25400 13650 24750 13650
+Text Label 24750 13650 0    50   ~ 0
+MA0
+Wire Wire Line
+	25400 13750 24750 13750
+Text Label 24750 13750 0    50   ~ 0
+MA7
 Wire Bus Line
 	31400 9550 31400 11900
 Wire Bus Line
