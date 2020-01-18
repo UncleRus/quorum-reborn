@@ -60,6 +60,18 @@ $CMP GND
 D Ground Symbol
 $ENDCMP
 #
+$CMP LED1
+D LED
+K diode, led
+F ~
+$ENDCMP
+#
+$CMP LED2
+D LED
+K diode, led
+F ~
+$ENDCMP
+#
 $CMP RESISTOR
 D Resistor, 0.125W
 K Resistor, 1/8W
