@@ -1027,7 +1027,7 @@ F 3 "" H 22600 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT2
+L gost_common:VT_NPN_EBC VT2
 U 1 1 5E90BEA2
 P 22000 6600
 F 0 "VT2" H 22192 6646 50  0000 L CNN
@@ -6793,7 +6793,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 10400 8650 10400
 $Comp
-L ics_gost:VT_PNP_EBC VT1
+L gost_common:VT_PNP_EBC VT1
 U 1 1 BC44D7BF
 P 22000 6000
 F 0 "VT1" H 22192 5954 50  0000 L CNN
@@ -7356,7 +7356,7 @@ F 3 "~" H 15350 20100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT3
+L gost_common:VT_NPN_EBC VT3
 U 1 1 66AF14A8
 P 17550 17850
 F 0 "VT3" H 17742 17896 50  0000 L CNN
@@ -7367,7 +7367,7 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    -1  
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT4
+L gost_common:VT_NPN_EBC VT4
 U 1 1 66B05ECB
 P 18250 17850
 F 0 "VT4" H 18442 17896 50  0000 L CNN
@@ -7390,7 +7390,7 @@ Wire Wire Line
 Wire Wire Line
 	16950 18050 16950 18150
 $Comp
-L ics_gost:VT_NPN_EBC VT5
+L gost_common:VT_NPN_EBC VT5
 U 1 1 6707D727
 P 18950 17850
 F 0 "VT5" H 19142 17896 50  0000 L CNN
@@ -7405,7 +7405,7 @@ Wire Wire Line
 Wire Wire Line
 	18800 17850 18800 18150
 $Comp
-L ics_gost:VT_NPN_EBC VT6
+L gost_common:VT_NPN_EBC VT6
 U 1 1 675FAC72
 P 19650 17850
 F 0 "VT6" H 19842 17896 50  0000 L CNN
@@ -7569,7 +7569,7 @@ Wire Wire Line
 Wire Wire Line
 	15250 19400 17000 19400
 $Comp
-L ics_gost:VT_NPN_EBC VT8
+L gost_common:VT_NPN_EBC VT8
 U 1 1 6D509F96
 P 15250 20750
 F 0 "VT8" H 15442 20796 50  0000 L CNN
@@ -7750,7 +7750,7 @@ F 3 "~" H 16950 17600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT9
+L gost_common:VT_NPN_EBC VT9
 U 1 1 70329A22
 P 16650 17050
 F 0 "VT9" H 16842 17096 50  0000 L CNN
@@ -8143,7 +8143,7 @@ Wire Wire Line
 Wire Wire Line
 	18100 19000 18100 20550
 $Comp
-L ics_gost:VT_NPN_EBC VT7
+L gost_common:VT_NPN_EBC VT7
 U 1 1 78E0AD06
 P 21400 20000
 F 0 "VT7" H 21592 20046 50  0000 L CNN

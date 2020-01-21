@@ -1879,7 +1879,7 @@ $EndComp
 Text Notes 29500 23350 0    98   Italic 0
 UncleRus
 $Comp
-L ics_gost:VT_NPN_EBC VT6
+L gost_common:VT_NPN_EBC VT6
 U 1 1 5E90BEA2
 P 26200 15700
 F 0 "VT6" H 26392 15654 50  0000 L CNN
@@ -1890,7 +1890,7 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    1   
 $EndComp
 $Comp
-L ics_gost:VT_PNP_EBC VT5
+L gost_common:VT_PNP_EBC VT5
 U 1 1 BC44D7BF
 P 26200 16100
 F 0 "VT5" H 26392 16146 50  0000 L CNN
@@ -8901,7 +8901,7 @@ Wire Wire Line
 Wire Wire Line
 	22550 12350 22400 12350
 $Comp
-L ics_gost:VT_NPN_EBC VT1
+L gost_common:VT_NPN_EBC VT1
 U 1 1 9473CEF6
 P 23550 12350
 F 0 "VT1" H 23742 12396 50  0000 L CNN
@@ -8956,7 +8956,7 @@ F 3 "" H 23650 14050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT3
+L gost_common:VT_NPN_EBC VT3
 U 1 1 95557F79
 P 23550 13650
 F 0 "VT3" H 23742 13696 50  0000 L CNN
@@ -8978,7 +8978,7 @@ F 3 "" H 23650 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT2
+L gost_common:VT_NPN_EBC VT2
 U 1 1 95952913
 P 23550 13000
 F 0 "VT2" H 23742 13046 50  0000 L CNN
@@ -9287,7 +9287,7 @@ Wire Wire Line
 Wire Wire Line
 	20300 3400 20300 5100
 $Comp
-L ics_gost:VT_NPN_EBC VT7
+L gost_common:VT_NPN_EBC VT7
 U 1 1 A56AA70A
 P 21150 15800
 F 0 "VT7" H 21350 15950 50  0000 L CNN
@@ -10308,7 +10308,7 @@ F 3 "" H 25300 17750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L ics_gost:VT_NPN_EBC VT4
+L gost_common:VT_NPN_EBC VT4
 U 1 1 C6A0C03A
 P 25200 17350
 F 0 "VT4" H 25392 17396 50  0000 L CNN
