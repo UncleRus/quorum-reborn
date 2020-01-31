@@ -115,7 +115,7 @@ F 15 "GND" H 4850 11750 50  0000 L CNN "NET12"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D VD1
+L gost_common:DIODE VD1
 U 1 1 5E90BCE0
 P 6700 16400
 F 0 "VD1" H 6900 16450 50  0000 C CNN
@@ -128,7 +128,7 @@ $EndComp
 Wire Wire Line
 	5800 16400 6550 16400
 $Comp
-L Device:D VD2
+L gost_common:DIODE VD2
 U 1 1 5DDFFBE8
 P 6850 16300
 F 0 "VD2" H 7200 16350 50  0000 C CNN
@@ -139,7 +139,7 @@ F 3 "~" H 6850 16300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D VD3
+L gost_common:DIODE VD3
 U 1 1 5E90BCEA
 P 6700 16200
 F 0 "VD3" H 6900 16250 50  0000 C CNN
@@ -150,7 +150,7 @@ F 3 "~" H 6700 16200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D VD4
+L gost_common:DIODE VD4
 U 1 1 5E90BCEB
 P 6850 16100
 F 0 "VD4" H 7200 16150 50  0000 C CNN
@@ -161,7 +161,7 @@ F 3 "~" H 6850 16100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D VD5
+L gost_common:DIODE VD5
 U 1 1 5E90BCEE
 P 6700 16000
 F 0 "VD5" H 6900 16050 50  0000 C CNN
@@ -174,7 +174,7 @@ $EndComp
 Wire Wire Line
 	5800 16000 6550 16000
 $Comp
-L Device:D VD6
+L gost_common:DIODE VD6
 U 1 1 5E90BCEF
 P 6850 15900
 F 0 "VD6" H 7200 15950 50  0000 C CNN
@@ -185,7 +185,7 @@ F 3 "~" H 6850 15900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D VD7
+L gost_common:DIODE VD7
 U 1 1 5DE1BA8A
 P 6700 15800
 F 0 "VD7" H 6900 15850 50  0000 C CNN
@@ -198,7 +198,7 @@ $EndComp
 Wire Wire Line
 	5800 15800 6550 15800
 $Comp
-L Device:D VD8
+L gost_common:DIODE VD8
 U 1 1 5DE1BA95
 P 6850 15700
 F 0 "VD8" H 7200 15750 50  0000 C CNN
