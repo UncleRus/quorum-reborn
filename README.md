@@ -1,7 +1,7 @@
 # Quorum Reborn
 
 ## Russian
-=======
+
 [English](#english)
 
 Старая и восстановленная документация для компьютеров ZX Spectrum "Кворум" и "Магик".
