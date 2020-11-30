@@ -1,11 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP VT_NPN_EBC
-D GENERIC NPN TRANSISTOR EBC
+$CMP DS3231
+D Extremely accurate I2C real-time clock (RTC) with an integrated temperature-compensated crystal oscillator (TCXO) and crystal
+K IC, Digital, Counter, Clock, RTC
 $ENDCMP
 #
-$CMP VT_PNP_EBC
-D GENERIC PNP TRANSISTOR EBC
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP LD1117S
+D Adjustable and Fixed Low Drop Positive Voltage Regulator
+K IC, Analog, LDO, Regulator
+F http://www.st.com/resource/en/datasheet/ld1117.pdf
+$ENDCMP
+#
+$CMP MCP23S17_SO
+D 16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28
+K SPI parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP OPAMP_DUAL
+D Dual Operational Amplifier
+K IC, Analog, OpAmp
 $ENDCMP
 #
 $CMP W27C512

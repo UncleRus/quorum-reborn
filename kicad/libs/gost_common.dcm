@@ -32,6 +32,16 @@ $CMP AGND
 D Ground Symbol
 $ENDCMP
 #
+$CMP BATTERY_CELL
+D Generic battery cell
+K Battery cell
+$ENDCMP
+#
+$CMP BUTTON
+D Generic Button
+K Switch, Button
+$ENDCMP
+#
 $CMP C
 K Capacitor
 $ENDCMP
@@ -72,9 +82,14 @@ K diode, led
 F ~
 $ENDCMP
 #
+$CMP PC817
+D Optotransistor
+K optron
+$ENDCMP
+#
 $CMP RESISTOR
-D Resistor, 0.125W
-K Resistor, 1/8W
+D Generic resistor
+K Resistor
 $ENDCMP
 #
 $CMP R_0125
@@ -87,9 +102,25 @@ D Resistor, 0.25W
 K Resistor, 1/4W
 $ENDCMP
 #
+$CMP R_POTENTIOMETER
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP SM712
+D TVS Diodes
+K TVS, diode
+F ~
+$ENDCMP
+#
 $CMP SWITCH
 D Generic Switch
 K Switch
+$ENDCMP
+#
+$CMP VIN
+D Power Symbol
 $ENDCMP
 #
 $CMP VT_FET_GSD
@@ -100,17 +131,16 @@ $CMP VT_MOSFET_GSD
 D FET transistor
 $ENDCMP
 #
-$CMP VT_NPN
-D NPN transistor
-F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$CMP VT_NPN_BEC
+D GENERIC NPN TRANSISTOR BEC
 $ENDCMP
 #
 $CMP VT_NPN_EBC
 D GENERIC NPN TRANSISTOR EBC
 $ENDCMP
 #
-$CMP VT_PNP
-D PNP Transistor
+$CMP VT_PNP_BEC
+D GENERIC PNP TRANSISTOR BEC
 $ENDCMP
 #
 $CMP VT_PNP_EBC
