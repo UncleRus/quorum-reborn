@@ -46,7 +46,7 @@
 
 ### Проекты KiCad
 
-Для работы с ними необходим KiCad, желательно версии >= 5.0.
+Для работы с ними необходим KiCad версии >= 7.0.
 Также в каждом проекте, в подкаталогах /plot лежат схемы, экспортированные в формат PDF.
 
 ### Ссылки
@@ -97,7 +97,7 @@ Quorum is supported by UnrealSpeccy and ZXMAK2 emulators.
 
 ### KiCad Projects
 
-To work with projects you'll need KiCad, preferably version >= 5.0.
+To work with projects you'll need KiCad version >= 7.0.
 Also in each project, in the /plot subdirectory there are schematic diagrams 
 exported in PDF format.
 
